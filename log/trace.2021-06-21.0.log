@@ -1,0 +1,233 @@
+2021-06-21 22:14:13.163 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.5.Final
+2021-06-21 22:14:13.178 INFO  com.cq.hwh.config.LoveHwhApplication                 :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 15860 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-06-21 22:14:13.178 INFO  com.cq.hwh.config.LoveHwhApplication                 :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-06-21 22:14:13.225 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-21 22:14:13.225 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-21 22:14:13.843 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.cq.lovehwh]' package. Please check your configuration.
+2021-06-21 22:14:14.171 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-06-21 22:14:14.186 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-06-21 22:14:14.186 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-06-21 22:14:14.186 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-06-21 22:14:14.186 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-06-21 22:14:14.186 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-06-21 22:14:14.186 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-21 22:14:14.186 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-21 22:14:15.240 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-06-21 22:14:15.296 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-06-21 22:14:15.296 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2071 ms
+2021-06-21 22:14:15.421 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-21 22:14:15.688 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-06-21 22:14:15.703 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-06-21 22:14:15.719 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-06-21 22:14:15.735 INFO  com.cq.hwh.config.LoveHwhApplication                 :61   [32m                  [0;39m Started LoveHwhApplication in 2.871 seconds (JVM running for 3.388)
+2021-06-21 22:29:34.110 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-21 22:33:25.092 INFO  com.cq.hwh.config.LoveHwhApplication                 :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 15860 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-06-21 22:33:25.092 INFO  com.cq.hwh.config.LoveHwhApplication                 :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-06-21 22:33:25.217 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.cq.lovehwh]' package. Please check your configuration.
+2021-06-21 22:33:25.280 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-06-21 22:33:25.280 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-06-21 22:33:25.280 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-06-21 22:33:25.280 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-06-21 22:33:25.280 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-06-21 22:33:25.280 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-21 22:33:25.280 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-21 22:33:25.280 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-06-21 22:33:25.295 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-06-21 22:33:25.295 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 203 ms
+2021-06-21 22:33:25.327 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-21 22:33:25.500 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-06-21 22:33:25.531 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-06-21 22:33:25.531 INFO  com.cq.hwh.config.LoveHwhApplication                 :61   [32m                  [0;39m Started LoveHwhApplication in 0.47 seconds (JVM running for 1153.188)
+2021-06-21 22:33:25.531 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-06-21 22:33:26.438 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.5.Final
+2021-06-21 22:33:26.453 INFO  com.cq.lovehwh.LoveHwhApplicationTests            :55   [32m                  [0;39m Starting LoveHwhApplicationTests on LAPTOP-T0P8U4U3 with PID 9876 (started by ���� in D:\IdeaProjects\loveHWH)
+2021-06-21 22:33:26.453 INFO  com.cq.lovehwh.LoveHwhApplicationTests            :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-06-21 22:33:27.063 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.cq.lovehwh]' package. Please check your configuration.
+2021-06-21 22:33:27.604 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-21 22:33:28.270 INFO  com.cq.lovehwh.LoveHwhApplicationTests            :61   [32m                  [0;39m Started LoveHwhApplicationTests in 2.067 seconds (JVM running for 2.906)
+2021-06-21 22:33:28.536 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-21 22:33:36.119 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-21 22:33:36.230 INFO  com.cq.hwh.config.LoveHwhApplication                 :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 15860 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-06-21 22:33:36.230 INFO  com.cq.hwh.config.LoveHwhApplication                 :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-06-21 22:33:36.323 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.cq.lovehwh]' package. Please check your configuration.
+2021-06-21 22:33:36.365 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-06-21 22:33:36.365 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-06-21 22:33:36.365 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-06-21 22:33:36.365 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-06-21 22:33:36.365 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-06-21 22:33:36.365 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-21 22:33:36.365 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-21 22:33:36.365 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-06-21 22:33:36.380 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-06-21 22:33:36.380 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 150 ms
+2021-06-21 22:33:36.412 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-21 22:33:36.490 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-06-21 22:33:36.505 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-06-21 22:33:36.505 INFO  com.cq.hwh.config.LoveHwhApplication                 :61   [32m                  [0;39m Started LoveHwhApplication in 0.306 seconds (JVM running for 1164.17)
+2021-06-21 22:33:36.505 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-06-21 22:47:38.256 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.5.Final
+2021-06-21 22:47:38.272 INFO  com.cq.hwh.config.LoveHwhApplication                 :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 15384 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-06-21 22:47:38.272 INFO  com.cq.hwh.config.LoveHwhApplication                 :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-06-21 22:47:38.303 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-21 22:47:38.303 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-21 22:47:38.831 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.cq.lovehwh]' package. Please check your configuration.
+2021-06-21 22:47:39.128 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-06-21 22:47:39.128 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-06-21 22:47:39.128 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-06-21 22:47:39.128 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-06-21 22:47:39.143 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-06-21 22:47:39.143 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-06-21 22:47:39.143 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-21 22:47:39.143 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-21 22:47:40.175 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-06-21 22:47:40.238 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-06-21 22:47:40.238 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1935 ms
+2021-06-21 22:47:40.363 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-21 22:47:40.739 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-06-21 22:47:40.755 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-06-21 22:47:40.771 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-06-21 22:47:40.771 INFO  com.cq.hwh.config.LoveHwhApplication                 :61   [32m                  [0;39m Started LoveHwhApplication in 2.822 seconds (JVM running for 3.351)
+2021-06-21 22:51:05.634 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.5.Final
+2021-06-21 22:51:05.650 INFO  com.cq.hwh.config.LoveHwhApplication                 :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 7644 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-06-21 22:51:05.650 INFO  com.cq.hwh.config.LoveHwhApplication                 :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-06-21 22:51:05.697 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-21 22:51:05.697 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-21 22:51:06.689 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-06-21 22:51:06.689 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-06-21 22:51:06.689 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-06-21 22:51:06.689 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-06-21 22:51:06.689 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-06-21 22:51:06.689 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-06-21 22:51:06.689 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-21 22:51:06.689 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-21 22:51:07.747 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-06-21 22:51:07.808 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-06-21 22:51:07.808 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2111 ms
+2021-06-21 22:51:07.933 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-21 22:51:08.350 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-06-21 22:51:08.366 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-06-21 22:51:08.397 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-06-21 22:51:08.397 INFO  com.cq.hwh.config.LoveHwhApplication                 :61   [32m                  [0;39m Started LoveHwhApplication in 3.072 seconds (JVM running for 3.581)
+2021-06-21 22:51:08.397 INFO  com.cq.hwh.config.LoveHwhApplication                 :21   [32m                  [0;39m 启动成功！！
+2021-06-21 22:51:08.397 INFO  com.cq.hwh.config.LoveHwhApplication                 :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-06-21 23:10:42.534 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.5.Final
+2021-06-21 23:10:42.550 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 5948 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-06-21 23:10:42.550 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-06-21 23:10:42.597 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-21 23:10:42.597 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-21 23:10:43.462 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-06-21 23:10:43.462 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-06-21 23:10:43.462 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-06-21 23:10:43.462 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-06-21 23:10:43.462 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-06-21 23:10:43.462 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-06-21 23:10:43.462 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-21 23:10:43.462 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-21 23:10:44.510 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-06-21 23:10:44.557 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-06-21 23:10:44.557 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1960 ms
+2021-06-21 23:10:44.698 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-21 23:10:45.068 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-06-21 23:10:45.084 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-06-21 23:10:45.115 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-06-21 23:10:45.115 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 2.902 seconds (JVM running for 3.41)
+2021-06-21 23:10:45.115 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-06-21 23:10:45.115 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-06-21 23:36:34.126 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.5.Final
+2021-06-21 23:36:34.141 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 16176 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-06-21 23:36:34.141 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-06-21 23:36:34.188 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-21 23:36:34.188 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-21 23:36:35.420 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-06-21 23:36:35.420 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-06-21 23:36:35.420 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-06-21 23:36:35.420 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-06-21 23:36:35.420 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-06-21 23:36:35.420 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-06-21 23:36:35.420 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-21 23:36:35.420 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-21 23:36:36.478 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-06-21 23:36:36.540 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-06-21 23:36:36.540 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2352 ms
+2021-06-21 23:36:37.107 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-21 23:36:37.138 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-06-21 23:36:37.540 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-06-21 23:36:37.555 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-06-21 23:36:37.602 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 3.775 seconds (JVM running for 4.311)
+2021-06-21 23:36:37.602 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-06-21 23:36:37.602 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-06-21 23:45:38.898 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.5.Final
+2021-06-21 23:45:38.914 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 13332 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-06-21 23:45:38.914 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-06-21 23:45:38.961 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-21 23:45:38.961 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-21 23:45:40.216 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-06-21 23:45:40.216 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-06-21 23:45:40.216 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-06-21 23:45:40.216 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-06-21 23:45:40.216 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-06-21 23:45:40.216 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-06-21 23:45:40.216 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-21 23:45:40.216 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-21 23:45:41.262 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-06-21 23:45:41.310 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-06-21 23:45:41.310 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2349 ms
+2021-06-21 23:45:41.883 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-21 23:45:41.930 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-06-21 23:45:42.331 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-06-21 23:45:42.346 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-06-21 23:45:42.433 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 3.87 seconds (JVM running for 4.477)
+2021-06-21 23:45:42.433 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-06-21 23:45:42.433 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-06-21 23:45:44.078 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-21 23:45:44.078 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-06-21 23:45:44.087 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 8 ms
+2021-06-21 23:46:14.867 INFO  org.apache.tomcat.util.http.parser.Cookie         :173  [32m                  [0;39m A cookie header was received [1621348084] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2021-06-21 23:46:22.529 WARN  s.d.swagger2.web.Swagger2ControllerWebMvc         :96   [32m                  [0;39m Unable to find specification for group 
+2021-06-21 23:46:41.257 INFO  com.cq.hwh.aspect.LogAspect                       :44   [32m                  [0;39m ------------- 开始 -------------
+2021-06-21 23:46:41.258 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m 请求地址: http://localhost:8880/test/hello POST
+2021-06-21 23:46:41.258 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 类名方法: com.cq.hwh.controller.TestController.hello
+2021-06-21 23:46:41.258 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-06-21 23:46:41.288 INFO  com.cq.hwh.aspect.LogAspect                       :67   [32m                  [0;39m 请求参数: []
+2021-06-21 23:46:41.291 INFO  com.cq.hwh.aspect.LogAspect                       :79   [32m                  [0;39m 返回结果: "你好呀"
+2021-06-21 23:46:41.292 INFO  com.cq.hwh.aspect.LogAspect                       :80   [32m                  [0;39m ------------- 结束 耗时：36 ms -------------
+2021-06-21 23:48:32.310 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-21 23:48:32.451 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 13332 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-06-21 23:48:32.451 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-06-21 23:48:32.795 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-06-21 23:48:32.795 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-06-21 23:48:32.795 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-06-21 23:48:32.795 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-06-21 23:48:32.795 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-06-21 23:48:32.795 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-06-21 23:48:32.795 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-21 23:48:32.795 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-21 23:48:32.795 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-06-21 23:48:32.795 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-06-21 23:48:32.795 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 344 ms
+2021-06-21 23:48:33.054 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-21 23:48:33.085 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-06-21 23:48:33.257 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-06-21 23:48:33.257 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-06-21 23:48:33.289 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 0.867 seconds (JVM running for 175.328)
+2021-06-21 23:48:33.289 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-06-21 23:48:33.289 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-06-21 23:48:33.289 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-06-21 23:48:35.636 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-21 23:48:35.637 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-06-21 23:48:35.645 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 8 ms
+2021-06-21 23:48:41.965 INFO  com.cq.hwh.aspect.LogAspect                       :44   [32m                  [0;39m ------------- 开始 -------------
+2021-06-21 23:48:41.966 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m 请求地址: http://localhost:8880/test/helloDelete DELETE
+2021-06-21 23:48:41.967 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 类名方法: com.cq.hwh.controller.TestController.helloDelete
+2021-06-21 23:48:41.967 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-06-21 23:48:41.967 INFO  com.cq.hwh.aspect.LogAspect                       :67   [32m                  [0;39m 请求参数: []
+2021-06-21 23:48:41.970 INFO  com.cq.hwh.aspect.LogAspect                       :79   [32m                  [0;39m 返回结果: "你好呀Delete"
+2021-06-21 23:48:41.971 INFO  com.cq.hwh.aspect.LogAspect                       :80   [32m                  [0;39m ------------- 结束 耗时：6 ms -------------
+2021-06-21 23:48:47.547 INFO  com.cq.hwh.aspect.LogAspect                       :44   [32m                  [0;39m ------------- 开始 -------------
+2021-06-21 23:48:47.547 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m 请求地址: http://localhost:8880/test/helloGet GET
+2021-06-21 23:48:47.547 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 类名方法: com.cq.hwh.controller.TestController.helloGet
+2021-06-21 23:48:47.548 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-06-21 23:48:47.548 INFO  com.cq.hwh.aspect.LogAspect                       :67   [32m                  [0;39m 请求参数: []
+2021-06-21 23:48:47.548 INFO  com.cq.hwh.aspect.LogAspect                       :79   [32m                  [0;39m 返回结果: "你好呀Get"
+2021-06-21 23:48:47.548 INFO  com.cq.hwh.aspect.LogAspect                       :80   [32m                  [0;39m ------------- 结束 耗时：1 ms -------------
