@@ -19,6 +19,6 @@ create table `file_up`(
     `category_id` bigint references category(id)
 );
 insert into file_up (id, name, file_path , create_time , category_id) values (1,'测试1','D:\Tencent Files\QQ截图20210519192318.png','2021/6/21',2);
-insert into file_up (id, name, file_path , create_time , category_id) values (2,'测试1','D:\Tencent Files\VID_20210519_195913.mp4','2021/6/21',1);
-insert into file_up (id, name, file_path , create_time , category_id) values (3,'测试1','D:\Tencent Files\测试结果.docx','2021/6/21',3);
-insert into file_up (id, name, file_path , create_time , category_id) values (4,'测试1','D:\Tencent Files\人员信息统计表.xlsx','2021/6/21',4);
+insert into file_up (id, name, file_path , create_time , category_id) values (2,'测试2','D:\Tencent Files\VID_20210519_195913.mp4','2021/6/21',1);
+insert into file_up (id, name, file_path , create_time , category_id) values (3,'测试3','D:\Tencent Files\测试结果.docx','2021/6/21',3);
+insert into file_up (id, name, file_path , create_time , category_id) values (4,'测试4','D:\Tencent Files\人员信息统计表.xlsx','2021/6/21',4);

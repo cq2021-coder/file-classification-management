@@ -3,7 +3,6 @@ package com.cq.hwh.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
-import org.springframework.core.env.Profiles;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.service.Contact;
@@ -31,7 +30,7 @@ public class SwaggerConfig {
     //配置Swagger信息=apiInfo
     private ApiInfo apiInfo(){
         //作者信息
-        Contact contact = new Contact("程崎", "http://127.0.0.1:8880", "2972084238@qq.com");
+        Contact contact = new Contact("程崎", "https://gitee.com/file-classification-management/back-end-code.git", "2972084238@qq.com");
 
         return new ApiInfo(
                 "文件分类管理系统",
@@ -39,7 +38,7 @@ public class SwaggerConfig {
                 "cq&&hwh",
                 "https://gitee.com/file-classification-management/back-end-code.git",
                 contact,
-                "Apache 2.0",
+                "仓库地址",
                 "https://gitee.com/file-classification-management/back-end-code.git",
                 new ArrayList());
     }
