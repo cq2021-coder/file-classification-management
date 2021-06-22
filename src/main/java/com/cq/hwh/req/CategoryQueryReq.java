@@ -1,6 +1,6 @@
 package com.cq.hwh.req;
 
-public class CategoryQueryReq {
+public class CategoryQueryReq extends PageReq {
     private Long id;
 
     private String name;
@@ -23,9 +23,9 @@ public class CategoryQueryReq {
 
     @Override
     public String toString() {
-        return "Category{" +
+        return "CategoryQueryReq{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                '}';
+                "} " + super.toString();
     }
 }

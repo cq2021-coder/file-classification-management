@@ -3,6 +3,7 @@ package com.cq.hwh.controller;
 import com.cq.hwh.req.FileUpQueryReq;
 import com.cq.hwh.resp.FileUpQueryResp;
 import com.cq.hwh.resp.CommonResp;
+import com.cq.hwh.resp.PageResp;
 import com.cq.hwh.service.FileUpService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -26,6 +27,15 @@ public class FileUpController {
     public CommonResp list(@Valid FileUpQueryReq req){
         CommonResp<List<FileUpQueryResp>> resp =new CommonResp<>();
         List<FileUpQueryResp> list = fileUpService.list(req);
+        resp.setContent(list);
+        return resp;
+    }
+
+    @ApiOperation("信息查询接口  可传入分页参数进行分页查询 id和name为空查询所有信息，id有值查询单个信息,name可进行模糊查询,注意两个参数要对应")
+    @GetMapping("/listpage")
+    public CommonResp listpage(@Valid FileUpQueryReq req){
+        CommonResp<PageResp<FileUpQueryResp>> resp =new CommonResp<>();
+        PageResp<FileUpQueryResp> list = fileUpService.listpage(req);
         resp.setContent(list);
         return resp;
     }

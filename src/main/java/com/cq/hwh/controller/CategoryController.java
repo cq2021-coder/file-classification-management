@@ -3,6 +3,7 @@ package com.cq.hwh.controller;
 import com.cq.hwh.req.CategoryQueryReq;
 import com.cq.hwh.resp.CategoryQueryResp;
 import com.cq.hwh.resp.CommonResp;
+import com.cq.hwh.resp.PageResp;
 import com.cq.hwh.service.CategoryService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -26,6 +27,14 @@ public class CategoryController {
     public CommonResp list(@Valid CategoryQueryReq req){
         CommonResp<List<CategoryQueryResp>> resp =new CommonResp<>();
         List<CategoryQueryResp> list = categoryService.list(req);
+        resp.setContent(list);
+        return resp;
+    }
+    @ApiOperation("信息分类查询接口  可传入分页参数;id和name为空查询所有信息，id有值查询单个信息,name可进行模糊查询,注意两个参数要对应")
+    @GetMapping("/pagelist")
+    public CommonResp pagelist(@Valid CategoryQueryReq req){
+        CommonResp<PageResp<CategoryQueryResp>> resp =new CommonResp<>();
+        PageResp<CategoryQueryResp> list = categoryService.pagelist(req);
         resp.setContent(list);
         return resp;
     }

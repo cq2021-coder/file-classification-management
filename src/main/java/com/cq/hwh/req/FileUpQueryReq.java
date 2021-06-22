@@ -1,6 +1,6 @@
 package com.cq.hwh.req;
 
-public class FileUpQueryReq {
+public class FileUpQueryReq extends PageReq {
     private Long id;
 
     private String name;
@@ -26,6 +26,6 @@ public class FileUpQueryReq {
         return "FileUpQueryReq{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                '}';
+                "} " + super.toString();
     }
 }
