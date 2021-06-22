@@ -2,6 +2,8 @@ package com.cq.hwh.service;
 
 import com.cq.hwh.domain.Category;
 import com.cq.hwh.domain.CategoryExample;
+import com.cq.hwh.exception.BusinessException;
+import com.cq.hwh.exception.BusinessExceptionCode;
 import com.cq.hwh.mapper.CategoryMapper;
 import com.cq.hwh.req.CategoryQueryReq;
 import com.cq.hwh.req.CategorySaveReq;
@@ -59,9 +61,19 @@ public class CategoryService {
      */
     public void save(CategorySaveReq req) {
         Category category = CopyUtil.copy(req,Category.class);
+        CategoryExample categoryExample = new CategoryExample();
+        CategoryExample.Criteria criteria = categoryExample.createCriteria();
+
+        criteria.andNameEqualTo(req.getName());
+
         if (ObjectUtils.isEmpty(req.getId())){
-            category.setId(snowFlake.nextId()/10000);
-            categoryMapper.insert(category);
+            if (ObjectUtils.isEmpty(categoryMapper.selectByExample(categoryExample))) {
+                category.setId(snowFlake.nextId() / 10000);
+                categoryMapper.insert(category);
+            }
+            else {
+                throw new BusinessException(BusinessExceptionCode.CATEGORY_ERROR);
+            }
         }
         else {
             categoryMapper.updateByPrimaryKey(category);
