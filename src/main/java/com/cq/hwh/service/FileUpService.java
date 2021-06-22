@@ -25,20 +25,7 @@ public class FileUpService {
     @Resource
     private FileUpMapper fileUpMapper;
 
-    public List<FileUpQueryResp> list(FileUpQueryReq req){
-        FileUpExample fileUpExample = new FileUpExample();
-        FileUpExample.Criteria criteria = fileUpExample.createCriteria();
-        if (!ObjectUtils.isEmpty(req.getId())){
-            criteria.andIdEqualTo(req.getId());
-        }
-        if (!ObjectUtils.isEmpty(req.getName())) {
-            criteria.andNameLike("%" + req.getName() + "%");
-        }
-        List<FileUp> fileUpList = fileUpMapper.selectByExample(fileUpExample);
-        return CopyUtil.copyList(fileUpList, FileUpQueryResp.class);
-    }
-
-    public PageResp<FileUpQueryResp> listpage(FileUpQueryReq req){
+    public PageResp<FileUpQueryResp> list(FileUpQueryReq req){
         FileUpExample fileUpExample = new FileUpExample();
         FileUpExample.Criteria criteria = fileUpExample.createCriteria();
         if (!ObjectUtils.isEmpty(req.getId())){
@@ -59,6 +46,17 @@ public class FileUpService {
         pageResp.setList(CopyUtil.copyList(fileUpList,FileUpQueryResp.class));
 
         return pageResp;
+    }
+
+    /**
+     * 删除
+     * @param ids
+     */
+    public void delete(List<String> ids){
+        FileUpExample fileUpExample = new FileUpExample();
+        FileUpExample.Criteria criteria = fileUpExample.createCriteria();
+        criteria.andIdIn(ids);
+        fileUpMapper.deleteByExample(fileUpExample);
     }
 
 }
