@@ -57,7 +57,7 @@ public class FileUpController {
      * @param idsStr
      * @return
      */
-    @ApiOperation("删除接口  传入单个或多个id进行删除操作，多个id示例：1,2,3(英文版逗号)")
+    @ApiOperation("删除接口  传入单个或多个id进行删除操作，多个id示例：1,2,3(英文版逗号),注意我后端生成的id即使是文件一样，名称一样，id仍然不同")
     @DeleteMapping("/delete/{idsStr}")
     public CommonResp delete(@PathVariable String idsStr){
         CommonResp resp = new CommonResp();
