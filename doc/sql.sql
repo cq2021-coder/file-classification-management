@@ -22,3 +22,14 @@ insert into file_up (id, name, file_path , create_time , category_id) values (1,
 insert into file_up (id, name, file_path , create_time , category_id) values (2,'测试2','D:\Tencent Files\VID_20210519_195913.mp4','2021/6/21',1);
 insert into file_up (id, name, file_path , create_time , category_id) values (3,'测试3','D:\Tencent Files\测试结果.docx','2021/6/21',3);
 insert into file_up (id, name, file_path , create_time , category_id) values (4,'测试4','D:\Tencent Files\人员信息统计表.xlsx','2021/6/21',4);
+
+drop table if exists `user`;
+create table `user` (
+                        `id` bigint not null primary key comment 'ID',
+                        `login_name` varchar(50) not null comment '登录名',
+                        `name` varchar(50) comment '昵称',
+                        `password` char(32) not null comment '密码',
+                        unique key `login_name_unique` (`login_name`)
+)engine=innodb default charset=utf8mb4 comment='用户';
+
+insert into user (id, login_name, name, password) values (1,'test','测试','123456');

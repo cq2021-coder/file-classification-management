@@ -22,9 +22,9 @@
         </commentGenerator>
 
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
-                        connectionURL="jdbc:mysql://rm-bp1hm5r38tj00h766.mysql.rds.aliyuncs.com:3306/cq_hwh?serverTimezone=Asia/Shanghai"
-                        userId="root"
-                        password="root">
+                        connectionURL="jdbc:mysql://rm-bp1hm5r38tj00h766yo.mysql.rds.aliyuncs.com:3306/cq_hwh?serverTimezone=Asia/Shanghai"
+                        userId="cq_hwh"
+                        password="ChengQi#0529">
             <property name="nullCatalogMeansCurrent" value="true"/>
         </jdbcConnection>
 
@@ -41,7 +41,8 @@
                              targetPackage="com.cq.hwh.mapper"
                              type="XMLMAPPER"/>
 
-        <table tableName="file_up" domainObjectName="FileUp" />
-        <table tableName="category" domainObjectName="Category" />
+        <!--<table tableName="file_up" domainObjectName="FileUp" />
+        <table tableName="category" domainObjectName="Category" />-->
+        <table tableName="user" domainObjectName="User" />
     </context>
 </generatorConfiguration>
