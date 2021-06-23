@@ -71,8 +71,8 @@ public class UserController {
     @GetMapping("/all")
     public CommonResp all() {
         CommonResp<List<UserQueryResp>> resp = new CommonResp<>();
-        List<UserQueryResp> allBook = userService.all();
-        resp.setContent(allBook);
+        List<UserQueryResp> all = userService.all();
+        resp.setContent(all);
         return resp;
     }
 }
