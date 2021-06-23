@@ -11,7 +11,6 @@ import com.cq.hwh.resp.UserQueryResp;
 import com.cq.hwh.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -37,8 +36,7 @@ public class UserController {
 
     @ApiOperation("保存或编辑")
     @PostMapping("/save")
-    public CommonResp save(@Valid @RequestBody UserSaveReq req) {
-        req.setPassword(DigestUtils.md5DigestAsHex(req.getPassword().getBytes()));
+    public CommonResp save(UserSaveReq req) {
         CommonResp resp = new CommonResp<>();
         userService.save(req);
         return resp;
@@ -54,8 +52,7 @@ public class UserController {
 
     @ApiOperation("登录")
     @PostMapping("/login")
-    public CommonResp login(@Valid @RequestBody UserLoginReq req) {
-        req.setPassword(DigestUtils.md5DigestAsHex(req.getPassword().getBytes()));
+    public CommonResp login(UserLoginReq req) {
         CommonResp<UserLoginResp> resp = new CommonResp<>();
         UserLoginResp userLoginResp = userService.login(req);
         resp.setContent(userLoginResp);
