@@ -15,6 +15,7 @@ import com.cq.hwh.resp.FileUpQueryResp;
 import com.cq.hwh.resp.PageResp;
 import com.cq.hwh.util.CopyUtil;
 import com.cq.hwh.util.FileUtil;
+import com.cq.hwh.util.PathUtil;
 import com.cq.hwh.util.SnowFlake;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
@@ -25,6 +26,7 @@ import org.springframework.util.ObjectUtils;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.Resource;
+import java.io.File;
 import java.util.Date;
 import java.util.List;
 
@@ -131,7 +133,19 @@ public class FileUpService {
         FileUpExample fileUpExample = new FileUpExample();
         FileUpExample.Criteria criteria = fileUpExample.createCriteria();
         criteria.andIdIn(ids);
-        fileUpMapper.deleteByExample(fileUpExample);
+
+        String basePath = PathUtil.getResultPath();
+
+        List<FileUp> fileUps = fileUpMapper.selectByExample(fileUpExample);
+        for (FileUp fileUp : fileUps) {
+            File file = new File(basePath + fileUp.getFilePath());
+            if (file.delete()){
+                fileUpMapper.deleteByPrimaryKey(fileUp.getId());
+            }
+            else {
+                throw new BusinessException(BusinessExceptionCode.FILE_DELETE_ERROR);
+            }
+        }
     }
 
 }

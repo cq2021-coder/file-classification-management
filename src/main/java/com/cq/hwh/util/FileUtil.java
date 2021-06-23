@@ -26,6 +26,6 @@ public class FileUtil {
         }catch (IOException e){
             e.getMessage();
         }
-        return "/file/"+reqName+"/"+newFileName;
+        return reqName+"/"+newFileName;
     }
 }
