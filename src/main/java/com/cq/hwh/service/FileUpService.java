@@ -33,7 +33,7 @@ import java.util.List;
 @Service
 public class FileUpService {
 
-    private static final Logger LOG = LoggerFactory.getLogger(CategoryService.class);
+    private static final Logger LOG = LoggerFactory.getLogger(FileUpService.class);
 
     @Resource
     private FileUpMapper fileUpMapper;
