@@ -9,7 +9,6 @@ import com.cq.hwh.resp.PageResp;
 import com.cq.hwh.resp.UserLoginResp;
 import com.cq.hwh.resp.UserQueryResp;
 import com.cq.hwh.service.UserService;
-import com.cq.hwh.util.TokenUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;
@@ -51,7 +50,7 @@ public class UserController {
         return resp;
     }
 
-    @ApiOperation("登录")
+    @ApiOperation("登录   每次登录token的值都会变化")
     @PostMapping("/login")
     public CommonResp login(UserLoginReq req) {
         CommonResp<UserLoginResp> resp = new CommonResp<>();
@@ -75,11 +74,5 @@ public class UserController {
         List<UserQueryResp> all = userService.all();
         resp.setContent(all);
         return resp;
-    }
-
-    @ApiOperation("测试解析token接口")
-    @PostMapping("/token")
-    public boolean token(String token){
-        return TokenUtil.verifyToken(token);
     }
 }
