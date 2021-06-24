@@ -9,6 +9,8 @@ public enum BusinessExceptionCode {
     CATEGORY_ERROR("类型已存在"),
     FILE_MORE_ERROR("文件已存在"),
     FILE_DELETE_ERROR("文件删除失败"),
+    TOKEN_NULL("无令牌，请重新登录"),
+    TOKEN_VERIFY_ERROR("令牌验证错误！"),
     ;
 
     private String desc;

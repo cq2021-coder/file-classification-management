@@ -1,5 +1,6 @@
 package com.cq.hwh.controller;
 
+import com.cq.hwh.annotation.PassToken;
 import com.cq.hwh.req.UserLoginReq;
 import com.cq.hwh.req.UserQueryReq;
 import com.cq.hwh.req.UserResetPasswordReq;
@@ -50,6 +51,7 @@ public class UserController {
         return resp;
     }
 
+    @PassToken
     @ApiOperation("登录   每次登录token的值都会变化")
     @PostMapping("/login")
     public CommonResp login(UserLoginReq req) {
