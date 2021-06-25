@@ -26,7 +26,7 @@ public class UserController {
     @Resource
     private UserService userService;
 
-    @ApiOperation("根据ID查询用户或者根据登录名模糊查询用户")
+    @ApiOperation("根据登录名模糊查询用户  不传入登录名为查询全部用户")
     @GetMapping("/list")
     public CommonResp list(@Valid UserQueryReq req) {
         CommonResp<PageResp<UserQueryResp>> resp = new CommonResp<>();
