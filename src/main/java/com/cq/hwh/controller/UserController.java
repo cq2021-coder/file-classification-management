@@ -15,7 +15,6 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import javax.validation.Valid;
 import java.util.List;
 
 @Api(tags = "登录接口")
@@ -26,9 +25,9 @@ public class UserController {
     @Resource
     private UserService userService;
 
-    @ApiOperation("根据登录名模糊查询用户  不传入登录名为查询全部用户")
+    @ApiOperation("根据账号查询用户  不传入账号为查询全部用户")
     @GetMapping("/list")
-    public CommonResp list(@Valid UserQueryReq req) {
+    public CommonResp list(@RequestBody UserQueryReq req) {
         CommonResp<PageResp<UserQueryResp>> resp = new CommonResp<>();
         PageResp<UserQueryResp> list = userService.list(req);
         resp.setContent(list);
@@ -37,7 +36,7 @@ public class UserController {
 
     @ApiOperation("保存或编辑")
     @PostMapping("/save")
-    public CommonResp save(UserSaveReq req) {
+    public CommonResp save(@RequestBody UserSaveReq req) {
         CommonResp resp = new CommonResp<>();
         userService.save(req);
         return resp;
@@ -45,16 +44,16 @@ public class UserController {
 
     @ApiOperation("重置密码,输入要更改的id以及更改的密码")
     @PostMapping("/reset-password")
-    public CommonResp resetPassword(@Valid UserResetPasswordReq req) {
+    public CommonResp resetPassword(@RequestBody UserResetPasswordReq req) {
         CommonResp resp = new CommonResp<>();
         userService.resetPassword(req);
         return resp;
     }
 
     @PassToken
-    @ApiOperation("登录   每次登录token的值都会变化")
+    @ApiOperation("登录")
     @PostMapping("/login")
-    public CommonResp login(UserLoginReq req) {
+    public CommonResp login(@RequestBody UserLoginReq req) {
         CommonResp<UserLoginResp> resp = new CommonResp<>();
         UserLoginResp userLoginResp = userService.login(req);
         resp.setContent(userLoginResp);

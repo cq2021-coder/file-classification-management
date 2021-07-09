@@ -44,7 +44,7 @@ public class FileUpController {
 
     @ApiOperation("文件编辑接口   可修改文件名称和文件分类（注意文件分类要存在，不然会报系统异常）")
     @PostMapping("/edit")
-    public CommonResp edit(@Valid FileUpEditReq req){
+    public CommonResp edit(@RequestBody FileUpEditReq req){
         CommonResp resp = new CommonResp();
         fileUpService.edit(req);
         return resp;

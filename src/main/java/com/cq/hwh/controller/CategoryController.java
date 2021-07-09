@@ -33,7 +33,7 @@ public class CategoryController {
 
     @ApiOperation("编辑或新增接口  传入id时为编辑，不传入id时为新增")
     @PostMapping("/save")
-    public CommonResp save(@Valid CategorySaveReq req){
+    public CommonResp save(@RequestBody CategorySaveReq req){
         CommonResp resp = new CommonResp();
         categoryService.save(req);
         return resp;
