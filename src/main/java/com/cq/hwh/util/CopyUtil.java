@@ -6,10 +6,21 @@ import org.springframework.util.CollectionUtils;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 复制工具
+ *
+ * @author 程崎
+ * @date 2021/06/11
+ */
 public class CopyUtil {
 
     /**
+     * 复制
      * 单体复制
+     *
+     * @param source 源
+     * @param clazz  clazz
+     * @return {@link T}
      */
     public static <T> T copy(Object source, Class<T> clazz) {
         if (source == null) {
@@ -27,7 +38,12 @@ public class CopyUtil {
     }
 
     /**
+     * 复制清单
      * 列表复制
+     *
+     * @param source 源
+     * @param clazz  clazz
+     * @return {@link List<T>}
      */
     public static <T> List<T> copyList(List source, Class<T> clazz) {
         List<T> target = new ArrayList<>();

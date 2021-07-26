@@ -10,12 +10,13 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @作者：程崎
- * @时间：2021/6/24
- * token工具类
- */
 
+/**
+ * 令牌工具包
+ *
+ * @author 程崎
+ * @date 2021/06/26
+ */
 public class TokenUtil {
 
     private static final Logger LOG = LoggerFactory.getLogger(TokenUtil.class);

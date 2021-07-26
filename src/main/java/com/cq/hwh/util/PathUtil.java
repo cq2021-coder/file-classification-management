@@ -3,6 +3,12 @@ package com.cq.hwh.util;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * 路径工具包
+ *
+ * @author 程崎
+ * @date 2021/06/26
+ */
 @Configuration
 public class PathUtil {
     //获取系统文件分隔符

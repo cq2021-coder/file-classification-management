@@ -14,6 +14,12 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 的配置
+ *
+ * @author 程崎
+ * @date 2021/04/13
+ */
 @Configuration
 @EnableSwagger2//开启swagger2
 public class SwaggerConfig {
