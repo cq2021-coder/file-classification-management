@@ -55,7 +55,7 @@ public class TokenUtil {
 
     public static void main(String[] args) {
         User user = new User();
-        user.setId(12211L);
+        user.setId(122112L);
         user.setLoginName("cq");
         user.setName("程崎");
         System.out.println("token为："+signToken(user));
