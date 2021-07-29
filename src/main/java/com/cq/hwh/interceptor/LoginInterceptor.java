@@ -16,12 +16,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.lang.reflect.Method;
 
-/*
- * @Auther:cq
- * @Date: 2021/6/25
- * 身份验证拦截器
-*/
-
+/**
+ * 登录拦截器
+ *
+ * @author 程崎
+ * @date 2021/06/24
+ */
 @Component
 public class LoginInterceptor implements HandlerInterceptor {
 
