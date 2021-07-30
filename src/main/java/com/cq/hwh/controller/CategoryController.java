@@ -11,7 +11,6 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import javax.validation.Valid;
 import java.util.Arrays;
 import java.util.List;
 
@@ -23,8 +22,8 @@ public class CategoryController {
     private CategoryService categoryService;
 
     @ApiOperation("信息分类查询接口  可传入分页参数;id和name为空查询所有信息，id有值查询单个信息,name可进行模糊查询,注意两个参数要对应")
-    @GetMapping("/list")
-    public CommonResp list(@Valid CategoryQueryReq req){
+    @PostMapping("/list")
+    public CommonResp list(@RequestBody CategoryQueryReq req){
         CommonResp<PageResp<CategoryQueryResp>> resp =new CommonResp<>();
         PageResp<CategoryQueryResp> list = categoryService.list(req);
         resp.setContent(list);

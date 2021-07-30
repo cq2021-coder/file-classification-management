@@ -26,7 +26,7 @@ public class UserController {
     private UserService userService;
 
     @ApiOperation("根据账号查询用户  不传入账号为查询全部用户")
-    @GetMapping("/list")
+    @PostMapping("/list")
     public CommonResp list(@RequestBody UserQueryReq req) {
         CommonResp<PageResp<UserQueryResp>> resp = new CommonResp<>();
         PageResp<UserQueryResp> list = userService.list(req);
@@ -52,8 +52,8 @@ public class UserController {
 
     @PassToken
     @ApiOperation("登录")
-    @PostMapping("/login")
-    public CommonResp login(@RequestBody UserLoginReq req) {
+    @GetMapping("/login")
+    public CommonResp login(UserLoginReq req) {
         CommonResp<UserLoginResp> resp = new CommonResp<>();
         UserLoginResp userLoginResp = userService.login(req);
         resp.setContent(userLoginResp);

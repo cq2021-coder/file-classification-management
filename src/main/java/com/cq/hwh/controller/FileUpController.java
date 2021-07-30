@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.Resource;
-import javax.validation.Valid;
 import java.util.Arrays;
 import java.util.List;
 
@@ -25,8 +24,8 @@ public class FileUpController {
     private FileUpService fileUpService;
 
     @ApiOperation("信息查询接口  可传入分页参数进行分页查询 id和name为空查询所有信息，id有值查询单个信息,name可进行模糊查询,注意两个参数要对应")
-    @GetMapping("/list")
-    public CommonResp list(@Valid FileUpQueryReq req){
+    @PostMapping("/list")
+    public CommonResp list(@RequestBody FileUpQueryReq req){
         CommonResp<PageResp<FileUpQueryResp>> resp =new CommonResp<>();
         PageResp<FileUpQueryResp> list = fileUpService.list(req);
         resp.setContent(list);
