@@ -141,14 +141,17 @@ public class FileUpService {
         String basePath = PathUtil.getResultPath();
 
         List<FileUp> fileUps = fileUpMapper.selectByExample(fileUpExample);
-        for (FileUp fileUp : fileUps) {
-            File file = new File(basePath + fileUp.getFilePath());
-            if (file.delete()){
-                fileUpMapper.deleteByPrimaryKey(fileUp.getId());
+        if (!ObjectUtils.isEmpty(fileUps)) {
+            for (FileUp fileUp : fileUps) {
+                File file = new File(basePath + fileUp.getFilePath());
+                if (file.delete()) {
+                    fileUpMapper.deleteByPrimaryKey(fileUp.getId());
+                } else {
+                    throw new BusinessException(BusinessExceptionCode.FILE_DELETE_ERROR);
+                }
             }
-            else {
-                throw new BusinessException(BusinessExceptionCode.FILE_DELETE_ERROR);
-            }
+        }else {
+            throw new BusinessException(BusinessExceptionCode.FILE_NULL_ERROR);
         }
     }
 

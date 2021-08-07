@@ -39,6 +39,6 @@ public class FileUtil {
         }catch (IOException e){
             System.out.println(e.getMessage());
         }
-        return "file/loveHWH/"+categoryName+"/"+newFileName;
+        return categoryName+"/"+newFileName;
     }
 }
