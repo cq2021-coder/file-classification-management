@@ -21,7 +21,7 @@ public class FileUtil {
      * @param reqName 要求的名字
      * @return {@link String}
      */
-    public static String upFile(MultipartFile file,String reqName){
+    public static String upFile(MultipartFile file,String reqName,String categoryName){
         if (file==null){
             throw new BusinessException(BusinessExceptionCode.FILE_UP_ERROR);
         }
@@ -30,7 +30,7 @@ public class FileUtil {
         String suffix = fileName.substring(fileName.lastIndexOf(".") + 1);
         String newFileName = reqName+"."+suffix;
         String basePath= PathUtil.getResultPath();
-        File allPath=new File(basePath);
+        File allPath=new File(basePath+"/"+categoryName);
         if(!allPath.exists()){
             allPath.mkdirs();
         }
@@ -39,6 +39,6 @@ public class FileUtil {
         }catch (IOException e){
             System.out.println(e.getMessage());
         }
-        return "file/loveHWH/"+newFileName;
+        return "file/loveHWH/"+categoryName+"/"+newFileName;
     }
 }

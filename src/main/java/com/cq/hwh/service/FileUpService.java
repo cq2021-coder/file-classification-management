@@ -22,6 +22,7 @@ import com.github.pagehelper.PageInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -73,6 +74,7 @@ public class FileUpService {
      * @param req
      */
 
+    @Transactional
     public void save(MultipartFile file, FileUpSaveReq req ){
         FileUpExample fileUpExample = new FileUpExample();
         FileUpExample.Criteria criteria = fileUpExample.createCriteria();
@@ -87,10 +89,6 @@ public class FileUpService {
         //ID
         fileUp.setId(snowFlake.nextId()/10000);
 
-        //文件路径
-        String filePath = FileUtil.upFile(file,fileUp.getName());
-        fileUp.setFilePath(filePath);
-
         //时间
         fileUp.setCreateTime(new Date());
 
@@ -100,6 +98,12 @@ public class FileUpService {
          criteria01.andNameEqualTo(req.getCategoryName());
          List<Category> categoryList = categoryMapper.selectByExample(categoryExample);
          fileUp.setCategoryId(categoryList.get(0).getId());
+
+        //文件路径
+        if (!ObjectUtils.isEmpty(categoryList)) {
+            String filePath = FileUtil.upFile(file, fileUp.getName(), req.getCategoryName());
+            fileUp.setFilePath(filePath);
+        }
 
          fileUpMapper.insert(fileUp);
     }
