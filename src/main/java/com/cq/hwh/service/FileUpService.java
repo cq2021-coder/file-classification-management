@@ -74,6 +74,13 @@ public class FileUpService {
      */
 
     public void save(MultipartFile file, FileUpSaveReq req ){
+        FileUpExample fileUpExample = new FileUpExample();
+        FileUpExample.Criteria criteria = fileUpExample.createCriteria();
+        criteria.andNameEqualTo(req.getName());
+
+        if (!ObjectUtils.isEmpty(fileUpMapper.selectByExample(fileUpExample))){
+            throw new BusinessException(BusinessExceptionCode.FILE_MORE_ERROR);
+        }
 
         FileUp fileUp = CopyUtil.copy(req, FileUp.class);
 

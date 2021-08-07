@@ -789,3 +789,462 @@ java.lang.NullPointerException: null
 2021-08-07 19:26:25.191 INFO  com.cq.hwh.util.TokenUtil                         :37   [32m                  [0;39m 过期日期为：2021年08月08日   19时26分25秒
 2021-08-07 19:26:25.202 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: {"content":{"id":1,"loginName":"test","name":"测试","token":"eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjE5ODUsImlhdCI6MTYyODMzNTU4NX0.NQ275T1y3FmId7YIId660OoWBhgBvFmdKoLlmsDKdQE"},"success":true}
 2021-08-07 19:26:25.203 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：181 ms -------------
+2021-08-07 21:30:13.984 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.5.Final
+2021-08-07 21:30:13.984 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 8868 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-07 21:30:13.999 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-07 21:30:14.040 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07 21:30:14.040 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07 21:30:15.281 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-07 21:30:15.296 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:30:15.296 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-07 21:30:15.296 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-07 21:30:15.296 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-07 21:30:15.296 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-07 21:30:15.296 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-07 21:30:15.296 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-07 21:30:16.348 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-07 21:30:16.441 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-07 21:30:16.441 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2401 ms
+2021-08-07 21:30:17.686 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:30:17.745 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-07 21:30:18.004 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:30:18.025 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-07 21:30:18.259 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 4.597 seconds (JVM running for 5.208)
+2021-08-07 21:30:18.261 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-07 21:30:18.262 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-07 21:30:25.501 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 21:30:25.501 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-08-07 21:30:25.509 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 8 ms
+2021-08-07 21:30:25.543 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-07 21:30:25.543 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI
+2021-08-07 21:30:25.743 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI验证通过
+2021-08-07 21:30:25.768 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-07 21:30:25.769 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/fileup/save POST
+2021-08-07 21:30:25.770 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.FileUpController.save
+2021-08-07 21:30:25.771 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-07 21:30:25.820 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null,{"categoryName":"图片","name":"测试图片"}]
+2021-08-07 21:30:25.869 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2021-08-07 21:30:26.091 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2021-08-07 21:30:26.159 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: {"success":true}
+2021-08-07 21:30:26.159 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：392 ms -------------
+2021-08-07 21:30:26.186 INFO  com.cq.hwh.interceptor.LoginInterceptor           :73   [32m                  [0;39m ------------- LoginInterceptor 结束 耗时：643 ms -------------
+2021-08-07 21:30:59.754 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-07 21:30:59.755 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI
+2021-08-07 21:30:59.756 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI验证通过
+2021-08-07 21:30:59.757 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-07 21:30:59.757 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/fileup/save POST
+2021-08-07 21:30:59.758 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.FileUpController.save
+2021-08-07 21:30:59.758 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-07 21:30:59.758 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null,{"categoryName":"图片","name":"测试图片"}]
+2021-08-07 21:30:59.806 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: {"success":true}
+2021-08-07 21:30:59.807 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：50 ms -------------
+2021-08-07 21:30:59.808 INFO  com.cq.hwh.interceptor.LoginInterceptor           :73   [32m                  [0;39m ------------- LoginInterceptor 结束 耗时：53 ms -------------
+2021-08-07 21:31:34.701 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:31:34.701 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2021-08-07 21:31:34.716 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2021-08-07 21:31:34.867 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 8868 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-07 21:31:34.867 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-07 21:31:35.212 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-07 21:31:35.212 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:31:35.212 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-07 21:31:35.212 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-07 21:31:35.212 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-07 21:31:35.212 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-07 21:31:35.212 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-07 21:31:35.212 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-07 21:31:35.212 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-07 21:31:35.227 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-07 21:31:35.227 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 360 ms
+2021-08-07 21:31:35.571 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:31:35.587 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-07 21:31:35.728 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:31:35.728 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-07 21:31:35.806 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 0.968 seconds (JVM running for 82.765)
+2021-08-07 21:31:35.806 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-08-07 21:31:35.806 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-07 21:31:35.806 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-07 21:31:38.323 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 21:31:38.324 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-08-07 21:31:38.330 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 6 ms
+2021-08-07 21:31:38.339 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-07 21:31:38.340 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI
+2021-08-07 21:31:38.342 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI验证通过
+2021-08-07 21:31:38.347 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-07 21:31:38.347 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/fileup/save POST
+2021-08-07 21:31:38.347 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.FileUpController.save
+2021-08-07 21:31:38.347 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-07 21:31:38.348 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null,{"categoryName":"图片","name":"测试图片"}]
+2021-08-07 21:31:38.360 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-2 - Starting...
+2021-08-07 21:31:38.489 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-2 - Start completed.
+2021-08-07 21:31:38.525 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: {"success":true}
+2021-08-07 21:31:38.525 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：179 ms -------------
+2021-08-07 21:31:38.527 INFO  com.cq.hwh.interceptor.LoginInterceptor           :73   [32m                  [0;39m ------------- LoginInterceptor 结束 耗时：187 ms -------------
+2021-08-07 21:33:11.046 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:33:11.046 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2021-08-07 21:33:11.046 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2021-08-07 21:33:11.202 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 8868 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-07 21:33:11.203 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-07 21:33:11.528 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-07 21:33:11.528 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:33:11.528 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-07 21:33:11.528 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-07 21:33:11.528 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-07 21:33:11.528 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-07 21:33:11.528 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-07 21:33:11.528 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-07 21:33:11.528 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-07 21:33:11.528 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-07 21:33:11.528 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 323 ms
+2021-08-07 21:33:11.841 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:33:11.873 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-07 21:33:11.998 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:33:11.998 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-07 21:33:12.060 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 0.892 seconds (JVM running for 179.017)
+2021-08-07 21:33:12.060 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-08-07 21:33:12.060 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-07 21:33:12.060 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-07 21:33:14.739 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 21:33:14.740 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-08-07 21:33:14.746 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 6 ms
+2021-08-07 21:33:14.756 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-07 21:33:14.756 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI
+2021-08-07 21:33:14.758 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI验证通过
+2021-08-07 21:33:14.762 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-07 21:33:14.763 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/fileup/save POST
+2021-08-07 21:33:14.763 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.FileUpController.save
+2021-08-07 21:33:14.763 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-07 21:33:14.764 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null,{"categoryName":"图片","name":"测试图片"}]
+2021-08-07 21:33:14.773 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-3 - Starting...
+2021-08-07 21:33:14.906 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-3 - Start completed.
+2021-08-07 21:33:14.941 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: {"success":true}
+2021-08-07 21:33:14.941 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：179 ms -------------
+2021-08-07 21:33:14.943 INFO  com.cq.hwh.interceptor.LoginInterceptor           :73   [32m                  [0;39m ------------- LoginInterceptor 结束 耗时：187 ms -------------
+2021-08-07 21:34:21.787 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-07 21:34:21.787 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI
+2021-08-07 21:34:21.788 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI验证通过
+2021-08-07 21:34:21.788 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-07 21:34:21.789 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/fileup/save POST
+2021-08-07 21:34:21.789 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.FileUpController.save
+2021-08-07 21:34:21.789 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-07 21:34:21.789 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null,{"categoryName":"图片","name":"测试图片"}]
+2021-08-07 21:34:21.843 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: {"success":true}
+2021-08-07 21:34:21.844 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：56 ms -------------
+2021-08-07 21:34:21.845 INFO  com.cq.hwh.interceptor.LoginInterceptor           :73   [32m                  [0;39m ------------- LoginInterceptor 结束 耗时：58 ms -------------
+2021-08-07 21:35:03.086 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:35:03.087 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2021-08-07 21:35:03.093 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2021-08-07 21:35:03.269 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 8868 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-07 21:35:03.270 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-07 21:35:03.609 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-07 21:35:03.610 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:35:03.610 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-07 21:35:03.610 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-07 21:35:03.610 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-07 21:35:03.611 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-07 21:35:03.611 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-07 21:35:03.611 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-07 21:35:03.611 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-07 21:35:03.621 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-07 21:35:03.621 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 349 ms
+2021-08-07 21:35:03.932 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:35:03.948 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-07 21:35:04.076 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:35:04.076 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-07 21:35:04.134 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 0.898 seconds (JVM running for 291.09)
+2021-08-07 21:35:04.134 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-08-07 21:35:04.134 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-07 21:35:04.134 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-07 21:35:04.346 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 21:35:04.347 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-08-07 21:35:04.353 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 6 ms
+2021-08-07 21:35:04.362 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-07 21:35:04.363 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI
+2021-08-07 21:35:04.364 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI验证通过
+2021-08-07 21:35:04.368 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-07 21:35:04.369 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/fileup/save POST
+2021-08-07 21:35:04.369 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.FileUpController.save
+2021-08-07 21:35:04.369 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-07 21:35:04.370 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null,{"categoryName":"图片","name":"测试图片"}]
+2021-08-07 21:35:04.379 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-4 - Starting...
+2021-08-07 21:35:04.566 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-4 - Start completed.
+2021-08-07 21:35:04.605 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: {"success":true}
+2021-08-07 21:35:04.606 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：238 ms -------------
+2021-08-07 21:35:04.608 INFO  com.cq.hwh.interceptor.LoginInterceptor           :73   [32m                  [0;39m ------------- LoginInterceptor 结束 耗时：245 ms -------------
+2021-08-07 21:36:53.638 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:36:53.638 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-4 - Shutdown initiated...
+2021-08-07 21:36:53.638 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-4 - Shutdown completed.
+2021-08-07 21:36:53.788 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 8868 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-07 21:36:53.789 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-07 21:36:54.130 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-07 21:36:54.130 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:36:54.130 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-07 21:36:54.130 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-07 21:36:54.130 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-07 21:36:54.130 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-07 21:36:54.130 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-07 21:36:54.130 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-07 21:36:54.130 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-07 21:36:54.146 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-07 21:36:54.146 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 357 ms
+2021-08-07 21:36:54.475 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:36:54.491 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-07 21:36:54.642 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:36:54.657 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-07 21:36:54.704 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 0.956 seconds (JVM running for 401.668)
+2021-08-07 21:36:54.720 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-08-07 21:36:54.720 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-07 21:36:54.720 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-07 21:36:58.144 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:36:58.253 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 8868 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-07 21:36:58.253 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-07 21:36:58.566 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-07 21:36:58.566 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:36:58.566 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-07 21:36:58.566 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-07 21:36:58.566 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-07 21:36:58.566 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-07 21:36:58.566 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-07 21:36:58.566 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-07 21:36:58.566 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-07 21:36:58.581 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-07 21:36:58.581 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 328 ms
+2021-08-07 21:36:58.889 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:36:58.904 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-07 21:36:59.014 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:36:59.029 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-07 21:36:59.077 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 0.842 seconds (JVM running for 406.032)
+2021-08-07 21:36:59.077 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-08-07 21:36:59.077 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-07 21:36:59.077 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-07 21:38:21.177 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 21:38:21.178 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-08-07 21:38:21.183 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 5 ms
+2021-08-07 21:38:21.194 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-07 21:38:21.195 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI
+2021-08-07 21:38:21.196 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI验证通过
+2021-08-07 21:38:21.200 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-07 21:38:21.201 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/fileup/save POST
+2021-08-07 21:38:21.201 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.FileUpController.save
+2021-08-07 21:38:21.201 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-07 21:38:21.202 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null,{"categoryName":"图片","name":"测试图片"}]
+2021-08-07 21:38:21.210 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-5 - Starting...
+2021-08-07 21:38:21.327 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-5 - Start completed.
+2021-08-07 21:38:21.364 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: {"success":true}
+2021-08-07 21:38:21.364 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：164 ms -------------
+2021-08-07 21:38:21.366 INFO  com.cq.hwh.interceptor.LoginInterceptor           :73   [32m                  [0;39m ------------- LoginInterceptor 结束 耗时：171 ms -------------
+2021-08-07 21:46:16.283 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:46:16.283 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-5 - Shutdown initiated...
+2021-08-07 21:46:16.283 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-5 - Shutdown completed.
+2021-08-07 21:46:16.460 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 8868 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-07 21:46:16.460 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-07 21:46:16.781 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-07 21:46:16.781 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:46:16.781 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-07 21:46:16.781 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-07 21:46:16.781 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-07 21:46:16.781 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-07 21:46:16.781 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-07 21:46:16.781 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-07 21:46:16.781 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-07 21:46:16.797 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-07 21:46:16.797 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 337 ms
+2021-08-07 21:46:17.141 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:46:17.156 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-07 21:46:17.281 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:46:17.281 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-07 21:46:17.344 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 0.903 seconds (JVM running for 964.293)
+2021-08-07 21:46:17.344 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-08-07 21:46:17.344 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-07 21:46:17.344 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-07 21:46:20.979 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 21:46:20.980 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-08-07 21:46:20.985 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 5 ms
+2021-08-07 21:46:20.994 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-07 21:46:20.994 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI
+2021-08-07 21:46:20.996 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI验证通过
+2021-08-07 21:46:21.000 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-07 21:46:21.001 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/fileup/save POST
+2021-08-07 21:46:21.001 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.FileUpController.save
+2021-08-07 21:46:21.001 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-07 21:46:21.002 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null,{"categoryName":"图片","name":"测试图片"}]
+2021-08-07 21:46:21.012 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-6 - Starting...
+2021-08-07 21:46:21.179 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-6 - Start completed.
+2021-08-07 21:46:21.221 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: {"success":true}
+2021-08-07 21:46:21.221 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：221 ms -------------
+2021-08-07 21:46:21.223 INFO  com.cq.hwh.interceptor.LoginInterceptor           :73   [32m                  [0;39m ------------- LoginInterceptor 结束 耗时：229 ms -------------
+2021-08-07 21:50:10.176 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-07 21:50:10.176 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI
+2021-08-07 21:50:10.177 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI验证通过
+2021-08-07 21:50:10.178 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-07 21:50:10.178 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/fileup/save POST
+2021-08-07 21:50:10.178 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.FileUpController.save
+2021-08-07 21:50:10.178 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-07 21:50:10.178 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null,{"categoryName":"图片","name":"测试图片"}]
+2021-08-07 21:50:10.238 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: {"success":true}
+2021-08-07 21:50:10.239 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：61 ms -------------
+2021-08-07 21:50:10.240 INFO  com.cq.hwh.interceptor.LoginInterceptor           :73   [32m                  [0;39m ------------- LoginInterceptor 结束 耗时：64 ms -------------
+2021-08-07 21:50:57.206 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:50:57.206 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-6 - Shutdown initiated...
+2021-08-07 21:50:57.206 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-6 - Shutdown completed.
+2021-08-07 21:50:57.331 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 8868 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-07 21:50:57.331 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-07 21:50:57.634 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-07 21:50:57.634 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:50:57.634 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-07 21:50:57.634 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-07 21:50:57.634 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-07 21:50:57.634 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-07 21:50:57.634 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-07 21:50:57.634 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-07 21:50:57.634 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-07 21:50:57.650 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-07 21:50:57.650 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 319 ms
+2021-08-07 21:50:57.948 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:50:57.964 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-07 21:50:58.073 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:50:58.089 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-07 21:50:58.136 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 0.821 seconds (JVM running for 1245.091)
+2021-08-07 21:50:58.136 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-08-07 21:50:58.136 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-07 21:50:58.136 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-07 21:51:02.603 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 21:51:02.604 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-08-07 21:51:02.609 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 5 ms
+2021-08-07 21:51:02.619 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-07 21:51:02.619 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI
+2021-08-07 21:51:02.620 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI验证通过
+2021-08-07 21:51:02.623 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-07 21:51:02.624 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/fileup/save POST
+2021-08-07 21:51:02.624 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.FileUpController.save
+2021-08-07 21:51:02.624 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-07 21:51:02.625 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null,{"categoryName":"图片","name":"测试图片"}]
+2021-08-07 21:51:02.634 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-7 - Starting...
+2021-08-07 21:51:02.782 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-7 - Start completed.
+2021-08-07 21:51:02.839 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: {"success":true}
+2021-08-07 21:51:02.839 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：216 ms -------------
+2021-08-07 21:51:02.841 INFO  com.cq.hwh.interceptor.LoginInterceptor           :73   [32m                  [0;39m ------------- LoginInterceptor 结束 耗时：222 ms -------------
+2021-08-07 21:54:39.278 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:54:39.278 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-7 - Shutdown initiated...
+2021-08-07 21:54:39.278 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-7 - Shutdown completed.
+2021-08-07 21:54:39.450 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 8868 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-07 21:54:39.450 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-07 21:54:39.754 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-07 21:54:39.754 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:54:39.754 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-07 21:54:39.754 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-07 21:54:39.754 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-07 21:54:39.754 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-07 21:54:39.754 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-07 21:54:39.754 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-07 21:54:39.754 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-07 21:54:39.770 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-07 21:54:39.770 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 320 ms
+2021-08-07 21:54:40.078 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:54:40.094 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-07 21:54:40.203 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:54:40.219 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-07 21:54:40.266 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 0.833 seconds (JVM running for 1467.215)
+2021-08-07 21:54:40.266 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-08-07 21:54:40.266 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-07 21:54:40.266 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-07 21:54:43.026 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 21:54:43.027 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-08-07 21:54:43.032 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 5 ms
+2021-08-07 21:54:43.041 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-07 21:54:43.041 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI
+2021-08-07 21:54:43.043 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI验证通过
+2021-08-07 21:54:43.048 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-07 21:54:43.048 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/fileup/save POST
+2021-08-07 21:54:43.048 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.FileUpController.save
+2021-08-07 21:54:43.048 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-07 21:54:43.049 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null,{"categoryName":"图片","name":"测试图片"}]
+2021-08-07 21:54:43.053 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-8 - Starting...
+2021-08-07 21:54:43.187 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-8 - Start completed.
+2021-08-07 21:54:43.204 WARN  com.cq.hwh.exception.ControllerExceptionHandler   :43   [32m                  [0;39m 业务异常：文件已存在
+2021-08-07 21:54:43.207 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [com.cq.hwh.exception.BusinessException: 文件已存在]
+2021-08-07 21:55:51.313 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-07 21:55:51.313 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI
+2021-08-07 21:55:51.314 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI验证通过
+2021-08-07 21:55:51.315 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-07 21:55:51.315 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/fileup/save POST
+2021-08-07 21:55:51.315 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.FileUpController.save
+2021-08-07 21:55:51.315 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-07 21:55:51.315 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null,{"categoryName":"图片","name":"测试图片"}]
+2021-08-07 21:55:51.339 WARN  com.cq.hwh.exception.ControllerExceptionHandler   :43   [32m                  [0;39m 业务异常：文件已存在
+2021-08-07 21:55:51.341 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [com.cq.hwh.exception.BusinessException: 文件已存在]
+2021-08-07 21:57:09.843 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:57:09.843 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-8 - Shutdown initiated...
+2021-08-07 21:57:09.843 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-8 - Shutdown completed.
+2021-08-07 21:57:09.985 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 8868 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-07 21:57:09.985 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-07 21:57:10.293 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-07 21:57:10.293 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:57:10.293 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-07 21:57:10.293 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-07 21:57:10.293 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-07 21:57:10.293 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-07 21:57:10.293 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-07 21:57:10.293 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-07 21:57:10.293 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-07 21:57:10.309 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-07 21:57:10.309 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 324 ms
+2021-08-07 21:57:10.623 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07 21:57:10.639 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-07 21:57:10.759 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-07 21:57:10.759 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-07 21:57:10.816 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 0.852 seconds (JVM running for 1617.765)
+2021-08-07 21:57:10.817 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-08-07 21:57:10.818 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-07 21:57:10.818 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-07 21:57:11.933 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 21:57:11.934 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-08-07 21:57:11.939 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 5 ms
+2021-08-07 21:57:11.948 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-07 21:57:11.949 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI
+2021-08-07 21:57:11.950 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI验证通过
+2021-08-07 21:57:11.953 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-07 21:57:11.954 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/fileup/save POST
+2021-08-07 21:57:11.954 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.FileUpController.save
+2021-08-07 21:57:11.954 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-07 21:57:11.955 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null,{"categoryName":"图片","name":"测试图片"}]
+2021-08-07 21:57:11.958 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-9 - Starting...
+2021-08-07 21:57:12.112 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-9 - Start completed.
+2021-08-07 21:57:12.128 WARN  com.cq.hwh.exception.ControllerExceptionHandler   :43   [32m                  [0;39m 业务异常：文件已存在
+2021-08-07 21:57:12.129 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [com.cq.hwh.exception.BusinessException: 文件已存在]
+2021-08-07 21:57:45.055 INFO  org.apache.tomcat.util.http.parser.Cookie         :173  [32m                  [0;39m A cookie header was received [1621348084] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2021-08-07 21:58:56.013 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-07 21:58:56.014 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：null
+2021-08-07 21:58:56.014 WARN  com.cq.hwh.exception.ControllerExceptionHandler   :43   [32m                  [0;39m 业务异常：无令牌，请重新登录
+2021-08-07 21:58:56.015 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [com.cq.hwh.exception.BusinessException: 无令牌，请重新登录]
+2021-08-07 21:59:07.394 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-07 21:59:07.395 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI
+2021-08-07 21:59:07.395 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI验证通过
+2021-08-07 21:59:07.396 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-07 21:59:07.396 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/fileup/save POST
+2021-08-07 21:59:07.396 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.FileUpController.save
+2021-08-07 21:59:07.396 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-07 21:59:07.396 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null,{"categoryName":"图片","name":"try"}]
+2021-08-07 21:59:07.424 WARN  com.cq.hwh.exception.ControllerExceptionHandler   :43   [32m                  [0;39m 业务异常：文件已存在
+2021-08-07 21:59:07.425 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [com.cq.hwh.exception.BusinessException: 文件已存在]
+2021-08-07 21:59:10.545 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-07 21:59:10.546 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI
+2021-08-07 21:59:10.546 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI验证通过
+2021-08-07 21:59:10.547 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-07 21:59:10.547 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/fileup/save POST
+2021-08-07 21:59:10.547 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.FileUpController.save
+2021-08-07 21:59:10.547 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-07 21:59:10.547 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null,{"categoryName":"图片","name":"try"}]
+2021-08-07 21:59:10.578 WARN  com.cq.hwh.exception.ControllerExceptionHandler   :43   [32m                  [0;39m 业务异常：文件已存在
+2021-08-07 21:59:10.579 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [com.cq.hwh.exception.BusinessException: 文件已存在]
+2021-08-07 22:00:04.997 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-07 22:00:04.998 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI
+2021-08-07 22:00:04.999 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg0MjAzMDAsImlhdCI6MTYyODMzMzkwMH0._itYa9GUsEp2e83LRu5LeBWHD3-E3gfWuaaHT1DSvcI验证通过
+2021-08-07 22:00:05.000 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-07 22:00:05.000 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/fileup/save POST
+2021-08-07 22:00:05.000 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.FileUpController.save
+2021-08-07 22:00:05.000 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-07 22:00:05.000 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null,{"categoryName":"图片","name":"try01"}]
+2021-08-07 22:00:05.092 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: {"success":true}
+2021-08-07 22:00:05.092 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：92 ms -------------
+2021-08-07 22:00:05.093 INFO  com.cq.hwh.interceptor.LoginInterceptor           :73   [32m                  [0;39m ------------- LoginInterceptor 结束 耗时：95 ms -------------

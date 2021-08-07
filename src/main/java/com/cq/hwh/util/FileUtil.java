@@ -26,19 +26,19 @@ public class FileUtil {
             throw new BusinessException(BusinessExceptionCode.FILE_UP_ERROR);
         }
         String fileName = file.getOriginalFilename();
-        String name =fileName.substring(0, fileName.indexOf("."));
+        assert fileName != null;
         String suffix = fileName.substring(fileName.lastIndexOf(".") + 1);
-        String newFileName = name+"_"+System.currentTimeMillis()+"."+suffix;
+        String newFileName = reqName+"."+suffix;
         String basePath= PathUtil.getResultPath();
-        File allpath=new File(basePath+reqName);
-        if(!allpath.exists()){
-            allpath.mkdirs();
+        File allPath=new File(basePath);
+        if(!allPath.exists()){
+            allPath.mkdirs();
         }
         try{
-            file.transferTo(new File(allpath+"/"+newFileName));
+            file.transferTo(new File(allPath+"/"+newFileName));
         }catch (IOException e){
             System.out.println(e.getMessage());
         }
-        return reqName+"/"+newFileName;
+        return "file/loveHWH/"+newFileName;
     }
 }
