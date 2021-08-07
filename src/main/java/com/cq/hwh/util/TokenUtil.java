@@ -6,8 +6,10 @@ import io.jsonwebtoken.SignatureAlgorithm;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 
 
@@ -31,7 +33,8 @@ public class TokenUtil {
         LOG.info("当前时间的时间戳{}",now);
         //设置一天后过期
         long expirationTime = now + 24*3600*1000;
-        LOG.info("过期时间戳为：{}",expirationTime);
+        String format = new SimpleDateFormat("yyyy年MM月dd日   HH时mm分ss秒", Locale.CHINA).format(expirationTime);
+        LOG.info("过期日期为：{}",format);
 
         return String.valueOf(Jwts.builder()
                 .setClaims(claims)
