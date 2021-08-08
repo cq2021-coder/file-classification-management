@@ -34,7 +34,7 @@ public class UserController {
         return resp;
     }
 
-    @ApiOperation("保存或编辑")
+    @ApiOperation("注册用户")
     @PostMapping("/save")
     public CommonResp save(@RequestBody UserSaveReq req) {
         CommonResp resp = new CommonResp<>();

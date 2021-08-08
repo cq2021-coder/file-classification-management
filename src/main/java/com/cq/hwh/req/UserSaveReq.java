@@ -3,8 +3,6 @@ package com.cq.hwh.req;
 import javax.validation.constraints.NotNull;
 
 public class UserSaveReq {
-    private Long id;
-
     @NotNull(message = "【用户名】不能为空")
     private String loginName;
 
@@ -13,14 +11,6 @@ public class UserSaveReq {
 
     @NotNull(message = "【密码】不能为空")
     private String password;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getLoginName() {
         return loginName;
@@ -49,7 +39,6 @@ public class UserSaveReq {
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
                 ", loginName='" + loginName + '\'' +
                 ", name='" + name + '\'' +
                 ", password='" + password + '\'' +

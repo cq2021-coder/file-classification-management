@@ -37,23 +37,22 @@ public class UserService {
     @Resource
     private SnowFlake snowFlake;
 
-    public UserLoginResp login(UserLoginReq req){
+    public UserLoginResp login(UserLoginReq req) {
         User userDb = selectByLoginName(req.getLoginName());
-        if (ObjectUtils.isEmpty(userDb)){
+        if (ObjectUtils.isEmpty(userDb)) {
             //用户名不存在
-            LOG.info("用户名不存在,{}",req.getLoginName());
+            LOG.info("用户名不存在,{}", req.getLoginName());
             throw new BusinessException(BusinessExceptionCode.LOGIN_USER_ERROR);
-        }else {
-            if (userDb.getPassword().equals(req.getPassword())){
+        } else {
+            if (userDb.getPassword().equals(req.getPassword())) {
                 //登录成功
                 String token = TokenUtil.signToken(userDb);
-                UserLoginResp resp = CopyUtil.copy(userDb,UserLoginResp.class);
+                UserLoginResp resp = CopyUtil.copy(userDb, UserLoginResp.class);
                 resp.setToken(token);
                 return resp;
-            }
-            else {
+            } else {
                 //密码错误
-                LOG.info("密码错误，输入密码：{},数据库密码：{}",req.getPassword(),userDb.getPassword());
+                LOG.info("密码错误，输入密码：{},数据库密码：{}", req.getPassword(), userDb.getPassword());
                 throw new BusinessException(BusinessExceptionCode.LOGIN_USER_ERROR);
             }
         }
@@ -70,8 +69,8 @@ public class UserService {
         List<User> userList = userMapper.selectByExample(userExample);
 
         PageInfo<User> pageInfo = new PageInfo<>(userList);
-        LOG.info("总行数：{}",pageInfo.getTotal());
-        LOG.info("总页数：{}",pageInfo.getPages());
+        LOG.info("总行数：{}", pageInfo.getTotal());
+        LOG.info("总页数：{}", pageInfo.getPages());
 
         /*List<UserResp> respList = new ArrayList<>();
         for (User user : userList) {
@@ -86,43 +85,32 @@ public class UserService {
         return pageResp;
     }
 
-    public List<UserQueryResp> all(){
+    public List<UserQueryResp> all() {
         return CopyUtil.copyList(userMapper.selectByExample(new UserExample()), UserQueryResp.class);
     }
 
     /**
      * 保存
      */
-    public void save(UserSaveReq req){
-        User user = CopyUtil.copy(req,User.class);
-        if (ObjectUtils.isEmpty(req.getId())){
-            if (ObjectUtils.isEmpty(selectByLoginName(req.getLoginName()))) {
-                //新增
-                user.setId(snowFlake.nextId()/10000);
-                userMapper.insert(user);
-            }
-            else {
-                // 用户名已存在
-                throw new BusinessException(BusinessExceptionCode.USER_LOGIN_NAME_EXIST);
-            }
-        }
-        else {
-            //更新
-            user.setLoginName(null);
-            user.setPassword(null);
-            userMapper.updateByPrimaryKeySelective(user);
+    public void save(UserSaveReq req) {
+        User user = CopyUtil.copy(req, User.class);
+        if (ObjectUtils.isEmpty(selectByLoginName(req.getLoginName()))) {
+            //新增
+            user.setId(snowFlake.nextId() / 10000);
+            userMapper.insert(user);
+        } else {
+            throw new BusinessException(BusinessExceptionCode.USER_LOGIN_NAME_EXIST);
         }
     }
 
     /**
      * 修改密码
      */
-    public void resetPassword(UserResetPasswordReq req){
-        User user = CopyUtil.copy(req,User.class);
-        if (req.getId()!=null) {
+    public void resetPassword(UserResetPasswordReq req) {
+        User user = CopyUtil.copy(req, User.class);
+        if (req.getId() != null) {
             userMapper.updateByPrimaryKeySelective(user);
-        }
-        else {
+        } else {
             throw new BusinessException(BusinessExceptionCode.RESET_USER_ERROR);
         }
     }
@@ -130,22 +118,21 @@ public class UserService {
     /**
      * 删除
      */
-    public void delete(Long id){
+    public void delete(Long id) {
         userMapper.deleteByPrimaryKey(id);
     }
 
     /**
      * 查询登录名
      */
-    public User selectByLoginName (String loginName){
+    public User selectByLoginName(String loginName) {
         UserExample userExample = new UserExample();
         UserExample.Criteria criteria = userExample.createCriteria();
         criteria.andLoginNameEqualTo(loginName);
         List<User> userList = userMapper.selectByExample(userExample);
-        if (CollectionUtils.isEmpty(userList)){
+        if (CollectionUtils.isEmpty(userList)) {
             return null;
-        }
-        else {
+        } else {
             return userList.get(0);
         }
     }
