@@ -43,8 +43,8 @@ public class UserController {
     }
 
     @ApiOperation("重置密码,输入要更改的id以及更改的密码")
-    @PostMapping("/reset-password")
-    public CommonResp resetPassword(@RequestBody UserResetPasswordReq req) {
+    @GetMapping("/reset-password")
+    public CommonResp resetPassword(UserResetPasswordReq req) {
         CommonResp resp = new CommonResp<>();
         userService.resetPassword(req);
         return resp;

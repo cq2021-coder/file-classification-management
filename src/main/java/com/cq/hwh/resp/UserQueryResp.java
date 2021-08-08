@@ -1,6 +1,8 @@
 package com.cq.hwh.resp;
 
-public class UserQueryResp {
+import com.cq.hwh.req.PageReq;
+
+public class UserQueryResp extends PageReq {
     private Long id;
 
     private String loginName;
@@ -8,6 +10,7 @@ public class UserQueryResp {
     private String name;
 
     private String password;
+
 
     public Long getId() {
         return id;
@@ -43,11 +46,11 @@ public class UserQueryResp {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "UserQueryResp{" +
                 "id=" + id +
                 ", loginName='" + loginName + '\'' +
                 ", name='" + name + '\'' +
                 ", password='" + password + '\'' +
-                '}';
+                "} " + super.toString();
     }
 }
