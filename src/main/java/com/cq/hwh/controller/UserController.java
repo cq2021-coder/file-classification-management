@@ -15,7 +15,6 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.util.List;
 
 @Api(tags = "登录接口")
 @RestController
@@ -65,15 +64,6 @@ public class UserController {
     public CommonResp delete(@PathVariable Long id){
         CommonResp resp = new CommonResp<>();
         userService.delete(id);
-        return resp;
-    }
-
-    @ApiOperation("查询所有用户")
-    @GetMapping("/all")
-    public CommonResp all() {
-        CommonResp<List<UserQueryResp>> resp = new CommonResp<>();
-        List<UserQueryResp> all = userService.all();
-        resp.setContent(all);
         return resp;
     }
 }

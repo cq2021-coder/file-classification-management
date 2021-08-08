@@ -85,10 +85,6 @@ public class UserService {
         return pageResp;
     }
 
-    public List<UserQueryResp> all() {
-        return CopyUtil.copyList(userMapper.selectByExample(new UserExample()), UserQueryResp.class);
-    }
-
     /**
      * 保存
      */
