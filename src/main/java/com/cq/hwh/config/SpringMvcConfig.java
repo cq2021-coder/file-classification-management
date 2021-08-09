@@ -33,6 +33,7 @@ public class SpringMvcConfig implements WebMvcConfigurer {
                 .excludePathPatterns(
                         "/test/**",
                         "/user/login",
+                        "/user/save",
                         "/swagger-resources/**",
                         "/v2/**",
                         "/swagger-resources/**",
