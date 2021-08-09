@@ -109,6 +109,7 @@
     </dependencies>
 
     <build>
+        <finalName>cqFirstProject</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
