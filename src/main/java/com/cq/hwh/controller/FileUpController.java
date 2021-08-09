@@ -1,5 +1,6 @@
 package com.cq.hwh.controller;
 
+import com.cq.hwh.domain.FileUp;
 import com.cq.hwh.req.FileUpEditReq;
 import com.cq.hwh.req.FileUpQueryReq;
 import com.cq.hwh.req.FileUpSaveReq;
@@ -32,6 +33,15 @@ public class FileUpController {
         return resp;
     }
 
+    @ApiOperation("根据名称查询文件信息")
+    @GetMapping("/list")
+    public CommonResp queryByName(String name){
+        CommonResp<FileUp> resp =new CommonResp<>();
+        FileUp file = fileUpService.queryByName(name);
+        resp.setContent(file);
+        return resp;
+    }
+
     @ApiOperation("文件上传接口")
     @PostMapping("/save")
     public CommonResp save(@RequestParam(value = "file", required = false) MultipartFile file, FileUpSaveReq req){
@@ -49,13 +59,6 @@ public class FileUpController {
         return resp;
     }
 
-
-
-    /**
-     * 删除
-     * @param idsStr
-     * @return
-     */
     @ApiOperation("删除接口  传入单个或多个id进行删除操作，多个id示例：1,2,3(英文版逗号),注意我后端生成的id即使是文件一样，名称一样，id仍然不同")
     @DeleteMapping("/delete/{idsStr}")
     public CommonResp delete(@PathVariable String idsStr){

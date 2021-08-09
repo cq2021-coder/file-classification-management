@@ -69,6 +69,18 @@ public class FileUpService {
     }
 
     /**
+     * 根据名称查询文件信息
+     * @param name
+     * @return
+     */
+    public FileUp queryByName(String name){
+        FileUpExample fileUpExample = new FileUpExample();
+        FileUpExample.Criteria criteria = fileUpExample.createCriteria();
+        criteria.andNameEqualTo(name);
+        return fileUpMapper.selectByExample(fileUpExample).get(0);
+    }
+
+    /**
      * 上传
      * @param file
      * @param req
