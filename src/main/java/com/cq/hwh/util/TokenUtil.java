@@ -1,11 +1,15 @@
 package com.cq.hwh.util;
 
 import com.cq.hwh.domain.User;
+import com.cq.hwh.exception.BusinessException;
+import com.cq.hwh.exception.BusinessExceptionCode;
+import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.servlet.http.HttpServletRequest;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
@@ -54,6 +58,26 @@ public class TokenUtil {
         }catch (Exception e){
             return false;
         }
+    }
+
+    /**
+     * 可根据request中请求头设置的token得到此时登录的用户id
+     * @param request
+     * @return
+     */
+    public static Object getUserByToken(HttpServletRequest request){
+        String token = request.getHeader("token");
+        Object userId;
+        try {
+            Claims claims1 = Jwts.parser()
+                    .setSigningKey("kejhfiwjkey87%&^GH*&UR%BJH")
+                    .parseClaimsJws(token)
+                    .getBody();
+            userId = claims1.get("id");
+        }catch (Exception e){
+            throw new BusinessException(BusinessExceptionCode.TOKEN_VERIFY_ERROR);
+        }
+        return userId;
     }
 
     public static void main(String[] args) {

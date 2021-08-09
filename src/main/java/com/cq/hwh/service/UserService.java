@@ -24,6 +24,7 @@ import org.springframework.util.CollectionUtils;
 import org.springframework.util.ObjectUtils;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 @Service
@@ -58,7 +59,7 @@ public class UserService {
         }
     }
 
-    public PageResp<UserQueryResp> list(UserQueryReq req) {
+    public PageResp<UserQueryResp> list(UserQueryReq req, HttpServletRequest request) {
         UserExample userExample = new UserExample();
         UserExample.Criteria criteria = userExample.createCriteria();
 
@@ -81,6 +82,7 @@ public class UserService {
         PageResp<UserQueryResp> pageResp = new PageResp<>();
         pageResp.setTotal(pageInfo.getTotal());
         pageResp.setList(CopyUtil.copyList(userList, UserQueryResp.class));
+        LOG.info("进行本次操作的用户id为：{}", TokenUtil.getUserByToken(request));
 
         return pageResp;
     }

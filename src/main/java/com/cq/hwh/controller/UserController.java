@@ -15,6 +15,7 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 
 @Api(tags = "登录接口")
 @RestController
@@ -26,9 +27,9 @@ public class UserController {
 
     @ApiOperation("根据账号查询用户  不传入账号为查询全部用户")
     @PostMapping("/list")
-    public CommonResp list(@RequestBody UserQueryReq req) {
+    public CommonResp list(@RequestBody UserQueryReq req, HttpServletRequest request) {
         CommonResp<PageResp<UserQueryResp>> resp = new CommonResp<>();
-        PageResp<UserQueryResp> list = userService.list(req);
+        PageResp<UserQueryResp> list = userService.list(req,request);
         resp.setContent(list);
         return resp;
     }

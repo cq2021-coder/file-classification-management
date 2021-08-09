@@ -1,37 +1,174 @@
-2021-08-09 21:39:53.827 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.5.Final
-2021-08-09 21:39:53.842 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 10704 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
-2021-08-09 21:39:53.842 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-08-09 21:39:53.889 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-08-09 21:39:53.889 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-08-09 21:39:55.351 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
-2021-08-09 21:39:55.359 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
-2021-08-09 21:39:55.360 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-08-09 21:39:55.360 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
-2021-08-09 21:39:55.362 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
-2021-08-09 21:39:55.362 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
-2021-08-09 21:39:55.363 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2021-08-09 21:39:55.363 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2021-08-09 21:39:56.392 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
-2021-08-09 21:39:56.468 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-08-09 21:39:56.468 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2579 ms
-2021-08-09 21:39:57.451 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-08-09 21:39:57.516 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2021-08-09 21:39:57.783 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
-2021-08-09 21:39:57.807 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
-2021-08-09 21:39:58.034 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 4.581 seconds (JVM running for 5.304)
-2021-08-09 21:39:58.037 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
-2021-08-09 21:39:58.037 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
-2021-08-09 21:40:04.987 INFO  org.apache.tomcat.util.http.parser.Cookie         :173  [32m                  [0;39m A cookie header was received [1621348084] that contained an invalid cookie. That cookie will be ignored.
+2021-08-10 01:22:26.400 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.5.Final
+2021-08-10 01:22:26.418 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 7288 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-10 01:22:26.419 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-10 01:22:26.465 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-10 01:22:26.466 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-10 01:22:27.852 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-10 01:22:27.861 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-10 01:22:27.862 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-10 01:22:27.862 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-10 01:22:27.864 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-10 01:22:27.864 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-10 01:22:27.865 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-10 01:22:27.865 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-10 01:22:28.920 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-10 01:22:28.978 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-10 01:22:28.979 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2513 ms
+2021-08-10 01:22:29.868 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-10 01:22:29.939 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-10 01:22:30.155 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-10 01:22:30.176 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-10 01:22:30.264 INFO  org.apache.tomcat.util.http.parser.Cookie         :173  [32m                  [0;39m A cookie header was received [1621348084] that contained an invalid cookie. That cookie will be ignored.
  Note: further occurrences of this error will be logged at DEBUG level.
-2021-08-09 21:40:04.991 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-08-09 21:40:04.992 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2021-08-09 21:40:05.001 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 9 ms
-2021-08-09 21:40:19.154 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
-2021-08-09 21:40:19.155 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/user/save POST
-2021-08-09 21:40:19.155 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.UserController.save
-2021-08-09 21:40:19.155 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
-2021-08-09 21:40:19.205 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [{"loginName":"string","name":"string"}]
-2021-08-09 21:40:19.263 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
-2021-08-09 21:40:19.556 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
-2021-08-09 21:40:19.632 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: {"success":true}
-2021-08-09 21:40:19.632 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：479 ms -------------
+2021-08-10 01:22:30.270 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-10 01:22:30.270 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-08-10 01:22:30.278 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 8 ms
+2021-08-10 01:22:30.416 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 4.327 seconds (JVM running for 4.955)
+2021-08-10 01:22:30.418 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-10 01:22:30.418 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-10 01:22:45.065 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-10 01:22:45.065 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/user/login GET
+2021-08-10 01:22:45.066 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.UserController.login
+2021-08-10 01:22:45.066 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-08-10 01:22:45.119 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [{"loginName":"test"},null]
+2021-08-10 01:22:45.166 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2021-08-10 01:22:45.702 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2021-08-10 01:22:45.760 INFO  com.cq.hwh.util.TokenUtil                         :37   [32m                  [0;39m 当前时间的时间戳1628529765760
+2021-08-10 01:22:45.762 INFO  com.cq.hwh.util.TokenUtil                         :41   [32m                  [0;39m 过期日期为：2021年08月11日   01时22分45秒
+2021-08-10 01:22:45.952 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: {"content":{"id":1,"loginName":"test","name":"测试","token":"eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg2MTYxNjUsImlhdCI6MTYyODUyOTc2NX0.c7Jlg-rTHMqg2T6OEs1-TIUHUK22YxPtudDCqOgPY54"},"success":true}
+2021-08-10 01:22:45.953 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：889 ms -------------
+2021-08-10 01:23:14.893 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-10 01:23:14.895 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2021-08-10 01:23:14.915 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2021-08-10 01:23:15.062 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 7288 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-10 01:23:15.063 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-10 01:23:15.389 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-10 01:23:15.390 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-10 01:23:15.390 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-10 01:23:15.390 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-10 01:23:15.391 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-10 01:23:15.391 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-10 01:23:15.391 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-10 01:23:15.391 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-10 01:23:15.391 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-10 01:23:15.401 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-10 01:23:15.402 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 337 ms
+2021-08-10 01:23:15.764 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-10 01:23:15.786 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-10 01:23:15.949 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-10 01:23:15.961 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-10 01:23:16.052 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 1.02 seconds (JVM running for 50.591)
+2021-08-10 01:23:16.054 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-08-10 01:23:16.054 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-10 01:23:16.054 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-10 01:23:22.760 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-10 01:23:22.761 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-08-10 01:23:22.767 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 6 ms
+2021-08-10 01:23:22.771 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-10 01:23:22.771 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/user/login GET
+2021-08-10 01:23:22.772 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.UserController.login
+2021-08-10 01:23:22.772 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-10 01:23:22.773 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [{"loginName":"test"},null]
+2021-08-10 01:23:22.778 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-2 - Starting...
+2021-08-10 01:23:23.084 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-2 - Start completed.
+2021-08-10 01:23:23.111 INFO  com.cq.hwh.util.TokenUtil                         :37   [32m                  [0;39m 当前时间的时间戳1628529803111
+2021-08-10 01:23:23.111 INFO  com.cq.hwh.util.TokenUtil                         :41   [32m                  [0;39m 过期日期为：2021年08月11日   01时23分23秒
+2021-08-10 01:23:23.121 WARN  com.cq.hwh.exception.ControllerExceptionHandler   :43   [32m                  [0;39m 业务异常：令牌验证错误！
+2021-08-10 01:23:23.125 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [com.cq.hwh.exception.BusinessException: 令牌验证错误！]
+2021-08-10 01:25:04.867 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-10 01:25:04.868 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2021-08-10 01:25:04.873 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2021-08-10 01:25:05.020 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 7288 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-10 01:25:05.020 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-10 01:25:05.364 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-10 01:25:05.364 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-10 01:25:05.365 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-10 01:25:05.365 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-10 01:25:05.365 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-10 01:25:05.365 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-10 01:25:05.365 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-10 01:25:05.365 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-10 01:25:05.366 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-10 01:25:05.375 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-10 01:25:05.375 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 353 ms
+2021-08-10 01:25:05.700 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-10 01:25:05.719 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-10 01:25:05.851 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-10 01:25:05.858 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-10 01:25:05.913 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 0.918 seconds (JVM running for 160.453)
+2021-08-10 01:25:05.915 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-08-10 01:25:05.916 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-10 01:25:05.916 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-10 01:25:12.576 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-10 01:25:12.577 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-08-10 01:25:12.583 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 6 ms
+2021-08-10 01:25:12.587 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-10 01:25:12.587 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/user/login GET
+2021-08-10 01:25:12.587 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.UserController.login
+2021-08-10 01:25:12.587 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-10 01:25:12.589 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [{"loginName":"test"}]
+2021-08-10 01:25:12.594 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-3 - Starting...
+2021-08-10 01:25:12.897 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-3 - Start completed.
+2021-08-10 01:25:12.922 INFO  com.cq.hwh.util.TokenUtil                         :37   [32m                  [0;39m 当前时间的时间戳1628529912922
+2021-08-10 01:25:12.923 INFO  com.cq.hwh.util.TokenUtil                         :41   [32m                  [0;39m 过期日期为：2021年08月11日   01时25分12秒
+2021-08-10 01:25:12.930 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: {"content":{"id":1,"loginName":"test","name":"测试","token":"eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg2MTYzMTIsImlhdCI6MTYyODUyOTkxMn0.ianfgaQ-GBJhKU2n4JkXp40nPD5V0nmKtvVYvBRSNr4"},"success":true}
+2021-08-10 01:25:12.930 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：344 ms -------------
+2021-08-10 01:25:43.318 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-10 01:25:43.319 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg2MTYzMTIsImlhdCI6MTYyODUyOTkxMn0.ianfgaQ-GBJhKU2n4JkXp40nPD5V0nmKtvVYvBRSNr4
+2021-08-10 01:25:43.339 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg2MTYzMTIsImlhdCI6MTYyODUyOTkxMn0.ianfgaQ-GBJhKU2n4JkXp40nPD5V0nmKtvVYvBRSNr4验证通过
+2021-08-10 01:25:43.353 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-10 01:25:43.353 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/user/list POST
+2021-08-10 01:25:43.353 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.UserController.list
+2021-08-10 01:25:43.353 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-10 01:25:43.354 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [{"page":1,"size":12},null]
+2021-08-10 01:25:43.458 INFO  com.cq.hwh.service.UserService                    :73   [32m                  [0;39m 总行数：6
+2021-08-10 01:25:43.459 INFO  com.cq.hwh.service.UserService                    :74   [32m                  [0;39m 总页数：1
+2021-08-10 01:25:43.463 WARN  com.cq.hwh.exception.ControllerExceptionHandler   :43   [32m                  [0;39m 业务异常：令牌验证错误！
+2021-08-10 01:25:43.465 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [com.cq.hwh.exception.BusinessException: 令牌验证错误！]
+2021-08-10 01:26:29.157 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.5.Final
+2021-08-10 01:26:29.176 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 13928 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-10 01:26:29.176 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-10 01:26:29.217 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-10 01:26:29.218 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-10 01:26:30.607 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-10 01:26:30.614 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-10 01:26:30.615 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-10 01:26:30.615 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-10 01:26:30.617 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-10 01:26:30.617 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-10 01:26:30.617 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-10 01:26:30.618 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-10 01:26:31.663 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-10 01:26:31.763 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-10 01:26:31.764 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2546 ms
+2021-08-10 01:26:32.672 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-10 01:26:32.727 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-10 01:26:32.977 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-10 01:26:33.001 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-10 01:26:33.247 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 4.407 seconds (JVM running for 5.881)
+2021-08-10 01:26:33.251 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-10 01:26:33.251 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-10 01:26:38.599 INFO  org.apache.tomcat.util.http.parser.Cookie         :173  [32m                  [0;39m A cookie header was received [1621348084] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2021-08-10 01:26:38.605 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-10 01:26:38.605 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-08-10 01:26:38.614 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 9 ms
+2021-08-10 01:26:38.625 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-10 01:26:38.626 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg2MTYzMTIsImlhdCI6MTYyODUyOTkxMn0.ianfgaQ-GBJhKU2n4JkXp40nPD5V0nmKtvVYvBRSNr4
+2021-08-10 01:27:07.776 INFO  com.cq.hwh.interceptor.LoginInterceptor           :60   [32m                  [0;39m token：eyJhbGciOiJIUzI1NiJ9.eyJsb2dpbk5hbWUiOiJ0ZXN0IiwibmFtZSI6Iua1i-ivlSIsImlkIjoxLCJleHAiOjE2Mjg2MTYzMTIsImlhdCI6MTYyODUyOTkxMn0.ianfgaQ-GBJhKU2n4JkXp40nPD5V0nmKtvVYvBRSNr4验证通过
+2021-08-10 01:27:23.160 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-10 01:27:23.162 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/user/list POST
+2021-08-10 01:27:23.163 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.UserController.list
+2021-08-10 01:27:23.164 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-10 01:27:23.336 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [{"page":1,"size":12},null]
+2021-08-10 01:27:43.663 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2021-08-10 01:27:44.073 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2021-08-10 01:27:44.214 INFO  com.cq.hwh.service.UserService                    :73   [32m                  [0;39m 总行数：6
+2021-08-10 01:27:44.215 INFO  com.cq.hwh.service.UserService                    :74   [32m                  [0;39m 总页数：1
+2021-08-10 01:29:52.468 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m8s283ms955µs200ns).
+2021-08-10 01:31:12.919 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s452ms183µs300ns).
+2021-08-10 01:31:12.922 WARN  com.cq.hwh.exception.ControllerExceptionHandler   :43   [32m                  [0;39m 业务异常：令牌验证错误！
+2021-08-10 01:31:12.950 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [com.cq.hwh.exception.BusinessException: 令牌验证错误！]
+2021-08-10 01:31:13.076 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-10 01:31:13.078 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2021-08-10 01:31:13.265 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
