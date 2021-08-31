@@ -74,51 +74,6 @@ public class CheckCodeController {
             response.getWriter().close();
 
         }
-
-        //region 旧代码
-        /*CheckCode checkCode = new CheckCode();
-
-        CaptchaGenerator vcg = new CaptchaGenerator();
-
-        String vCode = vcg.generatorVCode();
-
-        checkCode.setCode(vCode);
-
-        LOG.info("生成的验证码是：{}", vCode);
-
-        BufferedImage vCodeImage = vcg.generatorVCodeImage(vCode, true);
-
-        response.setDateHeader("Expires", 0);
-
-        response.setHeader("Cache-Control", "no-store, no-cache, must-revalidate");
-
-        response.addHeader("Cache-Control", "post-check=0, pre-check=0");
-
-        response.setHeader("Pragma", "no-cache");
-
-        OutputStream outputStream = response.getOutputStream();
-
-        ImageIO.write(vCodeImage, "png", outputStream);
-
-        checkCode.setOutputStream(outputStream);
-
-        return checkCode;*/
-        //endregion
     }
-
-    /*@ApiOperation("验证验证码")
-    @GetMapping("/verifyCheckCode")
-    public Boolean verifyCheckCode(HttpServletRequest request, String code) {
-        String vCode = null;
-        System.out.println(Arrays.toString(request.getCookies()));
-        for (Cookie cookie : request.getCookies()) {
-            if (cookie.getName().equals("code")) {
-                vCode = cookie.getValue();
-            }
-        }
-
-        assert vCode != null;
-        return Objects.equals(code, vCode.toLowerCase());
-    }*/
 
 }
