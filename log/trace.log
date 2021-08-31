@@ -10517,3 +10517,193 @@ Caused by: com.cq.hwh.exception.BusinessException: 令牌验证错误！
 2021-08-31 17:14:15.740 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: null
 2021-08-31 17:14:15.741 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：19 ms -------------
 2021-08-31 17:14:35.217 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-31 17:38:29.706 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.5.Final
+2021-08-31 17:38:29.722 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 7928 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-31 17:38:29.737 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-31 17:38:29.769 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-31 17:38:29.769 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-31 17:38:31.091 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-31 17:38:31.100 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-31 17:38:31.101 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-31 17:38:31.102 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-31 17:38:31.104 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-31 17:38:31.104 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-31 17:38:31.105 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-31 17:38:31.105 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-31 17:38:32.143 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-31 17:38:32.225 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-31 17:38:32.225 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2456 ms
+2021-08-31 17:38:33.475 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-31 17:38:33.544 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-31 17:38:33.802 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-31 17:38:33.825 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-31 17:38:34.190 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 4.763 seconds (JVM running for 5.444)
+2021-08-31 17:38:34.196 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-31 17:38:34.196 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-31 17:40:36.167 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-31 17:40:36.168 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-08-31 17:40:36.177 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 9 ms
+2021-08-31 17:40:36.226 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-31 17:40:36.227 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/check/getCheckCode GET
+2021-08-31 17:40:36.228 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.CheckCodeController.getCheckCode
+2021-08-31 17:40:36.228 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-31 17:40:36.273 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null]
+2021-08-31 17:40:36.278 INFO  com.cq.hwh.controller.CheckCodeController         :40   [32m                  [0;39m 验证码为：6iYF
+2021-08-31 17:40:36.452 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: null
+2021-08-31 17:40:36.452 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：228 ms -------------
+2021-08-31 17:40:50.300 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-31 17:40:50.301 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/check/getCheckCode GET
+2021-08-31 17:40:50.301 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.CheckCodeController.getCheckCode
+2021-08-31 17:40:50.301 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-31 17:40:50.301 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null]
+2021-08-31 17:40:50.301 INFO  com.cq.hwh.controller.CheckCodeController         :40   [32m                  [0;39m 验证码为：h6xm
+2021-08-31 17:40:50.311 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: null
+2021-08-31 17:40:50.312 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：12 ms -------------
+2021-08-31 17:41:07.460 INFO  com.cq.hwh.interceptor.LoginInterceptor           :33   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2021-08-31 17:41:07.461 INFO  com.cq.hwh.interceptor.LoginInterceptor           :38   [32m                  [0;39m 从请求头里获取token：null
+2021-08-31 17:41:07.463 WARN  com.cq.hwh.exception.ControllerExceptionHandler   :43   [32m                  [0;39m 业务异常：无令牌，请重新登录
+2021-08-31 17:41:07.488 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [com.cq.hwh.exception.BusinessException: 无令牌，请重新登录]
+2021-08-31 17:41:26.838 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-31 17:41:31.129 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.5.Final
+2021-08-31 17:41:31.145 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 17252 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-31 17:41:31.145 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-31 17:41:31.192 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-31 17:41:31.192 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-31 17:41:32.508 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-31 17:41:32.518 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-31 17:41:32.519 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-31 17:41:32.519 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-31 17:41:32.521 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-31 17:41:32.521 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-31 17:41:32.521 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-31 17:41:32.522 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-31 17:41:33.556 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-31 17:41:33.603 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-31 17:41:33.603 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2411 ms
+2021-08-31 17:41:34.434 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-31 17:41:34.479 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-31 17:41:34.697 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-31 17:41:34.736 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-31 17:41:34.870 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-31 17:41:34.870 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-08-31 17:41:34.885 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 15 ms
+2021-08-31 17:41:34.901 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-31 17:41:34.901 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/check/getCheckCode GET
+2021-08-31 17:41:34.901 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.CheckCodeController.getCheckCode
+2021-08-31 17:41:34.901 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-31 17:41:34.949 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null]
+2021-08-31 17:41:34.949 INFO  com.cq.hwh.controller.CheckCodeController         :40   [32m                  [0;39m 验证码为：PWXK
+2021-08-31 17:41:34.949 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 4.156 seconds (JVM running for 5.127)
+2021-08-31 17:41:34.949 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-31 17:41:34.949 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-31 17:41:35.090 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: null
+2021-08-31 17:41:35.090 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：189 ms -------------
+2021-08-31 17:41:35.464 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-31 17:41:35.465 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/check/getCheckCode GET
+2021-08-31 17:41:35.465 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.CheckCodeController.getCheckCode
+2021-08-31 17:41:35.465 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-31 17:41:35.465 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null]
+2021-08-31 17:41:35.465 INFO  com.cq.hwh.controller.CheckCodeController         :40   [32m                  [0;39m 验证码为：42NF
+2021-08-31 17:41:35.476 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: null
+2021-08-31 17:41:35.477 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：13 ms -------------
+2021-08-31 17:41:35.570 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-31 17:41:35.571 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/check/getCheckCode GET
+2021-08-31 17:41:35.571 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.CheckCodeController.getCheckCode
+2021-08-31 17:41:35.571 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-31 17:41:35.571 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null]
+2021-08-31 17:41:35.571 INFO  com.cq.hwh.controller.CheckCodeController         :40   [32m                  [0;39m 验证码为：pW5s
+2021-08-31 17:41:35.580 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: null
+2021-08-31 17:41:35.581 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：11 ms -------------
+2021-08-31 17:41:45.365 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-31 17:41:45.365 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/check/verifyCheckCode GET
+2021-08-31 17:41:45.365 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.CheckCodeController.verifyCheckCode
+2021-08-31 17:41:45.366 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-31 17:41:45.366 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: ["pW5s"]
+2021-08-31 17:41:45.366 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: true
+2021-08-31 17:41:45.366 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：1 ms -------------
+2021-08-31 17:42:39.346 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-31 17:42:39.346 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/check/getCheckCode GET
+2021-08-31 17:42:39.346 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.CheckCodeController.getCheckCode
+2021-08-31 17:42:39.347 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-31 17:42:39.347 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null]
+2021-08-31 17:42:39.347 INFO  com.cq.hwh.controller.CheckCodeController         :40   [32m                  [0;39m 验证码为：ANpW
+2021-08-31 17:42:39.355 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: null
+2021-08-31 17:42:39.356 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：10 ms -------------
+2021-08-31 17:42:49.535 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-31 17:42:49.535 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/check/verifyCheckCode GET
+2021-08-31 17:42:49.536 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.CheckCodeController.verifyCheckCode
+2021-08-31 17:42:49.536 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-31 17:42:49.536 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: ["ANpW"]
+2021-08-31 17:42:49.536 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: true
+2021-08-31 17:42:49.536 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：1 ms -------------
+2021-08-31 17:42:52.660 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-31 17:42:52.661 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/check/verifyCheckCode GET
+2021-08-31 17:42:52.661 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.CheckCodeController.verifyCheckCode
+2021-08-31 17:42:52.661 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-31 17:42:52.661 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: ["ANp"]
+2021-08-31 17:42:52.662 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: false
+2021-08-31 17:42:52.662 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2021-08-31 17:43:03.469 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-31 17:44:33.092 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.5.Final
+2021-08-31 17:44:33.109 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 8704 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-31 17:44:33.111 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-31 17:44:33.156 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-31 17:44:33.157 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-31 17:44:34.479 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-31 17:44:34.486 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-31 17:44:34.486 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-31 17:44:34.486 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-31 17:44:34.488 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-31 17:44:34.488 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-31 17:44:34.488 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-31 17:44:34.489 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-31 17:44:35.526 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-31 17:44:35.596 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-31 17:44:35.596 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2439 ms
+2021-08-31 17:44:36.475 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-31 17:44:36.528 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-31 17:44:36.764 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-31 17:44:36.795 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-31 17:44:37.074 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 4.318 seconds (JVM running for 5.006)
+2021-08-31 17:44:37.078 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-31 17:44:37.079 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-31 17:44:56.234 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-31 17:44:56.234 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-08-31 17:44:56.234 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2021-08-31 17:44:56.322 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-31 17:44:56.323 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/check/getCheckCode GET
+2021-08-31 17:44:56.324 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.CheckCodeController.getCheckCode
+2021-08-31 17:44:56.324 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-31 17:44:56.378 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null]
+2021-08-31 17:44:56.385 INFO  com.cq.hwh.controller.CheckCodeController         :37   [32m                  [0;39m 验证码为：SC3T
+2021-08-31 17:44:56.559 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: null
+2021-08-31 17:44:56.560 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：242 ms -------------
+2021-08-31 17:45:03.738 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-31 17:45:03.738 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/check/verifyCheckCode GET
+2021-08-31 17:45:03.738 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.CheckCodeController.verifyCheckCode
+2021-08-31 17:45:03.738 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-31 17:45:03.738 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: ["SC3T"]
+2021-08-31 17:45:03.738 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: true
+2021-08-31 17:45:03.738 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：0 ms -------------
+2021-08-31 17:45:05.654 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-31 17:45:05.654 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/check/getCheckCode GET
+2021-08-31 17:45:05.654 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.CheckCodeController.getCheckCode
+2021-08-31 17:45:05.654 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-31 17:45:05.654 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: [null]
+2021-08-31 17:45:05.654 INFO  com.cq.hwh.controller.CheckCodeController         :37   [32m                  [0;39m 验证码为：xbCg
+2021-08-31 17:45:05.670 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: null
+2021-08-31 17:45:05.670 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：16 ms -------------
+2021-08-31 17:45:11.814 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-31 17:45:11.814 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/check/verifyCheckCode GET
+2021-08-31 17:45:11.814 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.CheckCodeController.verifyCheckCode
+2021-08-31 17:45:11.814 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-31 17:45:11.814 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: ["xbcg"]
+2021-08-31 17:45:11.814 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: false
+2021-08-31 17:45:11.815 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：1 ms -------------
+2021-08-31 17:45:19.140 INFO  com.cq.hwh.aspect.LogAspect                       :45   [32m                  [0;39m ------------- 开始 -------------
+2021-08-31 17:45:19.140 INFO  com.cq.hwh.aspect.LogAspect                       :46   [32m                  [0;39m 请求地址: http://localhost:8880/check/verifyCheckCode GET
+2021-08-31 17:45:19.141 INFO  com.cq.hwh.aspect.LogAspect                       :47   [32m                  [0;39m 类名方法: com.cq.hwh.controller.CheckCodeController.verifyCheckCode
+2021-08-31 17:45:19.141 INFO  com.cq.hwh.aspect.LogAspect                       :48   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-08-31 17:45:19.141 INFO  com.cq.hwh.aspect.LogAspect                       :70   [32m                  [0;39m 请求参数: ["xbCg"]
+2021-08-31 17:45:19.141 INFO  com.cq.hwh.aspect.LogAspect                       :82   [32m                  [0;39m 返回结果: true
+2021-08-31 17:45:19.141 INFO  com.cq.hwh.aspect.LogAspect                       :83   [32m                  [0;39m ------------- 结束 耗时：1 ms -------------

@@ -35,6 +35,7 @@ public class SpringMvcConfig implements WebMvcConfigurer {
                         "/user/login",
                         "/user/save",
                         "/check/getCheckCode",
+                        "/check/verifyCheckCode",
                         "/swagger-resources/**",
                         "/v2/**",
                         "/swagger-resources/**",

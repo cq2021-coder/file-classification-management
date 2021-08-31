@@ -16,34 +16,30 @@ import javax.servlet.http.HttpServletResponse;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.util.Objects;
 
 @Api(tags = "验证码")
 @RestController
 @RequestMapping("/check")
 public class CheckCodeController {
 
+    String vCode = null;
+
     private static final Logger LOG = LoggerFactory.getLogger(CheckCodeController.class);
 
     @ApiOperation("生成验证码")
     @GetMapping("/getCheckCode")
     public void getCheckCode(HttpServletResponse response) throws IOException {
-
         JSONObject object = new JSONObject();
 
         CaptchaGenerator vcg = new CaptchaGenerator();
-
-        String vCode = vcg.generatorVCode();
-
+        vCode = vcg.generatorVCode();
         LOG.info("验证码为：{}", vCode);
-
         BufferedImage vCodeImage = vcg.generatorRotateVCodeImage(vCode, true);
 
         response.setDateHeader("Expires", 0);
-
         response.setHeader("Cache-Control", "no-store, no-cache, must-revalidate");
-
         response.addHeader("Cache-Control", "post-check=0, pre-check=0");
-
         response.setHeader("Pragma", "no-cache");
 
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
@@ -52,28 +48,27 @@ public class CheckCodeController {
             ImageIO.write(vCodeImage, "png", outputStream);
 
             BASE64Encoder encoder = new BASE64Encoder();
-
             String base64 = encoder.encodeBuffer(outputStream.toByteArray()).trim();
-
             base64 = base64.replaceAll("\n", "").replaceAll("\r", "");
 
             object.put("codeImg", "data:image/jpg;base64," + base64);
-
             object.put("code", vCode);
 
             response.getWriter().write(object.toString());
-
         } catch (IOException e) {
             response.getWriter().write("");
 
         } finally {
             outputStream.flush();
-
             outputStream.close();
-
             response.getWriter().close();
-
         }
+    }
+
+    @ApiOperation("验证验证码")
+    @GetMapping("/verifyCheckCode")
+    public Boolean verifyCheckCode(String checkCode){
+        return Objects.equals(checkCode, vCode);
     }
 
 }
