@@ -1,0 +1,29 @@
+2021-08-24 10:55:29.465 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.5.Final
+2021-08-24 10:55:29.477 INFO  com.cq.hwh.config.LoveHwhApplication              :55   [32m                  [0;39m Starting LoveHwhApplication on LAPTOP-T0P8U4U3 with PID 13556 (D:\IdeaProjects\loveHWH\target\classes started by 程崎 in D:\IdeaProjects\loveHWH)
+2021-08-24 10:55:29.478 INFO  com.cq.hwh.config.LoveHwhApplication              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-08-24 10:55:29.517 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-24 10:55:29.518 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-24 10:55:30.855 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-08-24 10:55:30.863 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-08-24 10:55:30.864 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-08-24 10:55:30.864 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-08-24 10:55:30.865 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-24 10:55:30.866 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-24 10:55:30.866 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-24 10:55:30.866 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-24 10:55:31.887 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-24 10:55:31.952 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-08-24 10:55:31.953 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2435 ms
+2021-08-24 10:55:32.838 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-24 10:55:32.885 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-08-24 10:55:33.115 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-08-24 10:55:33.139 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-08-24 10:55:33.217 INFO  org.apache.tomcat.util.http.parser.Cookie         :173  [32m                  [0;39m A cookie header was received [1621348084] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2021-08-24 10:55:33.223 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-24 10:55:33.223 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-08-24 10:55:33.232 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 9 ms
+2021-08-24 10:55:33.418 INFO  com.cq.hwh.config.LoveHwhApplication              :61   [32m                  [0;39m Started LoveHwhApplication in 4.338 seconds (JVM running for 5.127)
+2021-08-24 10:55:33.421 INFO  com.cq.hwh.config.LoveHwhApplication              :21   [32m                  [0;39m 启动成功！！
+2021-08-24 10:55:33.421 INFO  com.cq.hwh.config.LoveHwhApplication              :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2021-08-24 19:29:24.354 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'

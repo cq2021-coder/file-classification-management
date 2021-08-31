@@ -13,6 +13,7 @@ public enum BusinessExceptionCode {
     FILE_DELETE_ERROR("文件删除失败"),
     TOKEN_NULL("无令牌，请重新登录"),
     TOKEN_VERIFY_ERROR("令牌验证错误！"),
+    CHECK_CODE_ERROR("验证码不正确！"),
     ;
 
     private String desc;
